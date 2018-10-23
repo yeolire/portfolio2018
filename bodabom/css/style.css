@@ -1,0 +1,77 @@
+/* Header */
+header{height: 60px;width: 100%;display: flex;justify-content: space-between;align-items: center;padding: 6vw;position: fixed;top: 0;transition: 1s;z-index: 1;}
+header hgroup a{display: flex;}
+header hgroup h1 span{color: #C4FF00;}
+header hgroup img{width: 40px;height: 20px;margin-bottom: 5px;align-self: flex-end;}
+header hgroup h1{font-size: 1.5rem;}
+header button{display: none;position: absolute;top: 6vw;right: 6vw;z-index: 1;}
+header button.on{display: block;}
+header nav a:hover{font-weight: bold;}
+@media screen and (max-width:699px) {
+  header nav{display: none;position: fixed;top: 0;right: 0;width: 70vw;height: 100vh;background: #333;padding-top: 12vw;}
+  header nav a{width: 100%;padding: 1rem 12vw;font-size: 1.5rem;}
+}
+@media screen and (min-width: 700px) {
+  header{height: 80px;padding: 1.5rem;}
+  header hgroup{flex-basis: 40%;}
+  header hgroup h1{font-size: 1.5rem;padding-left: 30px;}
+  header button.on{display: none;}
+  header nav{flex-grow: 1;display: flex;justify-content: space-around;align-items: center;height: 100%;}
+  header nav a{text-align: right;width: 25%;padding: 30px;font-size: 1.2rem;}
+}
+
+/* Home visual */
+#home{position: absolute;top: 0;width: 100%;height: 100vh;}
+#home .bg{position: absolute;top: 0;width: 100%;height: 100%;background-image: url(../img/home01.jpg);background-position: 35% 0;background-size: cover;z-index: -1;-webkit-transition: 1.5s;transition: 1.5s;}
+#home .cover{display: flex;justify-content: center;align-items: center;background: rgba(0,0,0,.2);z-index: -1;}
+#home p{position: absolute;width: 70vw;padding: 5rem 1rem;text-align: center;font-size: 1.5rem;border: 1px solid #fff;line-height: 2.5rem;font-weight: bold;}
+#home img{position: absolute;bottom: 5vh;width: 20px;}
+@media screen and (min-width: 700px) {
+  #home p{width: auto;font-size: 2rem;padding:1rem;border: none;border-bottom: 1px solid #fff;font-weight: normal;}
+}
+
+/* Visual navigation */
+#visual{width: 100%;height: 35vh;text-align: center;top: 60px;}
+#visual .cover{display: flex;flex-direction: column;justify-content: center;padding: 2rem;}
+#visual h2{margin-bottom: 1rem;}
+
+#visual.about{background: url(../img/about.jpg);background-size: cover;}
+#visual.order{background: url(../img/order.jpg);background-size: cover;}
+#visual.class{background: url(../img/class.jpg);background-size: cover;}
+#visual.gallery{background: url(../img/gallery.jpg);background-size: cover;}
+@media screen and (min-width: 700px) {
+  #visual{height: 40vh;top: 80px;}
+}
+
+
+/* Main contents */
+main{padding: 6vw;}
+main section{margin-bottom: 12vw;}
+main section h3{font-size: 1.5rem;margin-bottom: .5rem;}
+main section p{padding: .5rem;}
+main section
+main.home{margin-top: 100vh;padding: 6vw;}
+main.home section{display: block;height: auto;}
+main.home section:first-child h3{margin: 2rem 0;}
+main.about section img{display: block;width: 80%;margin: 1rem auto;}
+@media screen and (max-width:699px) {
+  main.home section:first-child div{text-align: center;}
+  main.home img{display: block;margin: 1rem auto;}
+}
+@media screen and (min-width: 700px) {
+  main{max-width: 980px;width: 100%;margin: 0 auto;padding: 2rem;}
+  main section{margin-bottom: 3rem;}
+  main.home{margin: 0 auto;margin-top: 100vh;padding: 1rem;}
+  main.home section:first-child>div{display: flex;justify-content: center;margin-bottom: 5rem;}
+  main.home img{margin-right: 5rem;}
+  main.about section .img {display: flex;}
+  main.about section .img img{width: 480px; height: 276px;margin-right: 1rem;}
+  main.about section .img div{display: flex;flex-direction: column;justify-content: center;}
+}
+
+/* Footer */
+footer{width: 100%;background: #333;padding: 6vw;-ms-word-break: keep-all;word-break: keep-all;}
+footer div{max-width: 980px;width: 100%;margin: 0 auto;}
+@media screen and (min-width: 700px) {
+  footer{padding: 1.5rem;}
+}
