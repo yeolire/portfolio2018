@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import url('@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');');
+body{font-family: 'Noto Serif KR', sans-serif;}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul, ol{list-style: none;}
+a:link, a:visited{text-decoration: none;color: inherit;}
+img, a{display: inline-block;}
+button{cursor: pointer;font-size: 1rem;border: none;background: none;}
+input{border: none;}
+.sound_only{text-indent: -9999px;line-height: 0;font-size: 0;}
+.underline{display: inline-block;}
+.underline::after{content: '';display: block;border-bottom: 1px solid;margin: .1rem;width: 100%;box-shadow: 0 0 10px #000;}
+.fixed{width: 100%;height: 3rem;position: fixed;display: flex;align-items: center;box-shadow: 0 0 5px #aaa;background: #fff;}
+.cover{width: 100%;height: 100%;background: rgba(0,0,0,.1);}

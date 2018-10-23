@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SUBWAY</title>
+  <link rel="shortcut icon" href="../img/subway_favicon.ico">
+  <link rel="stylesheet" href="../css/defalt.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="../js/common.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <header class="fixed">
+    <h1><a href="../index.html"><img src="../img/logo_w.png" alt="subway"></a></h1>
+  </header>
+
+  <!-- Main -->
+  <main id="more" class="map">
+    <section>
+      <form action="">
+        <input type="text" id="search" placeholder="지역 또는 매장명 입력">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Tab Bar -->
+  <footer class="fixed">
+      <a href="home.html"><i class="fas fa-home"></i><h2>Home</h2></a>
+      <a href="store.html" class="active"><i class="fas fa-map-marker-alt"></i></i><h2>Store</h2></a>
+      <a href="notification.html"><i class="fas fa-bell"></i><h2>Notifications</h2></a>
+      <a href="more.html"><i class="fas fa-ellipsis-h"></i><h2>More</h2></a>
+  </footer>
+</body>
+
+</html>
