@@ -5,35 +5,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SUBWAY</title>
-  <link rel="shortcut icon" href="img/subway_favicon.ico" />
-  <link rel="stylesheet" href="css/defalt.css">
+  <title>보다봄 현상소</title>
+  <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="js/common.js" defer></script>
+  <script src="js/home.js" defer></script>
 </head>
 
 <body>
-  <section id="launch" class="ani">
+  <!-- Header -->
+  <header>
+    <hgroup>
+      <a href="index.html"><h1>보다<span>봄</span> 현상소</h1>
+      <img src="img/logo.png" alt='logo'></a>
+    </hgroup>
+    <button class="on"><img src="img/open.png" alt="toggle button"</button>
+    <button><img src="img/close.png" alt="toggle button"></button>
+    <nav>
+      <a href="html/about.html">About</a>
+      <a href="html/order.html">Order</a>
+      <a href="html/class.html">Class</a>
+      <a href="html/gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <!-- Home visual -->
+  <section id="home">
     <div class="cover">
-      <hgroup>
-        <a href="html/home.html"><img src="img/logo_w.png" alt="subway">
-          <h1 class="sound_only">SUBWAY</h1>
-          <h6>Eat fresh. Enjoy Subway.</h6></a>
-      </hgroup>
-      <fieldset id="login">
-        <legend class="sound_only">LogIn</legend>
-        <form action="" name="login">
-          <input type="text" name="id" placeholder="아이디를 입력하세요." required>
-          <input type="password" name="pw" placeholder="비밀번호를 입력하세요." required>
-          <button type="submit">로그인하기</button>
-          <a href="">아이디/비밀번호 찾기</a>
-          <a href="">회원가입 하기</a>
-          <button><i class="fab fa-google"></i>구글로 계속하기</button>
-          <button><i class="fab fa-facebook-f"></i>페이스북으로 계속하기</button>
-        </form>
-      </fieldset>
+      <p>B & W / Color Developing & Printing Lab.</p>
+      <img class="scroll" src="img/scroll.png" alt="please scroll down">
     </div>
+    <div class="bg"></div>
   </section>
+
+  <!-- Main contents -->
+  <main class="home">
+    <section>
+      <h3>영화용 필름 판매</h3>
+      <div>
+        <img src="img/moviefilm.png" alt="movie film">
+        <div>
+          <p>EASTMAN<br> 35mm / 250D (Day light)<br> 주로 주간에 사용하는 필름입니다.<br></p>
+          <p>Kodak Vision-3<br> 35mm / 500T (텅스텐)<br> 주로 실내나 야간 촬영에 사용합니다.<br></p>
+          <p>EASTMAN Kodak<br> 35mm / DOUBLE-X 400 <br> Black&White Film<br></p>
+          <p>5개 27500₩, 10개 55000₩<br> 문의: 010-2771-3355<br></p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>공지사항</h3>
+      <ul>
+        <li><a href="###">###</a></li>
+        <li><a href="###">###</a></li>
+        <li><a href="###">###</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div><p>상호: 보다봄 | 대표자: 김형국 | 사업자등록번호: 279-05-00071 | 전화: 02-2261-0985 | 업태: 서비스 | 종목: 필름현상 | 주소: 서울특별시 중구 충무로2가 52-4 소피아하우스 빌딩 4층</p>
+    <p>Copyright ⓒ Bodabom All rights reserved.</p></div>
+  </footer>
 </body>
 
 </html>
