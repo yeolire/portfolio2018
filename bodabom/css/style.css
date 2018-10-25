@@ -32,7 +32,7 @@ header nav a.on, header nav a:hover{font-weight: bold;}
 }
 
 /* Visual navigation */
-#visual{width: 100%;height: 35vh;text-align: center;top: 60px;-webkit-background-size: cover;background-size: cover;}
+#visual{margin-bottom: 1.5rem;width: 100%;height: 35vh;text-align: center;top: 60px;-webkit-background-size: cover;background-size: cover;}
 #visual .cover{display: flex;flex-direction: column;justify-content: center;padding: 2rem;}
 #visual h2{margin-bottom: 1rem;}
 #visual h2::before{content: "";display: block;width: 100%;height: 4rem;}
@@ -50,7 +50,7 @@ header nav a.on, header nav a:hover{font-weight: bold;}
 
 /* Main contents */
 main{padding: 6vw;}
-main section{margin-bottom: 12vw;}
+main section{margin-bottom: 15vw;}
 main section h3{font-size: 1.5rem;margin-bottom: .5rem;}
 main section p{padding: .5rem;}
 main section
@@ -78,14 +78,18 @@ main.order .text{padding: 1rem;}
   th:first-of-type, tr:first-of-type{width: 20vw;}
 }
 @media screen and (min-width: 700px) {
-  main{max-width: 980px;width: 100%;margin: 0 auto;padding: 2rem;}
-  main section{margin-bottom: 3rem;}
+  main{max-width: 980px;width: 100%;margin: 0 auto;padding: 2rem;min-height: calc(100vh - 40vh)}
+  main section{margin-bottom: 4rem;}
   main.home{margin: 0 auto;margin-top: 100vh;padding: 1rem;}
   main.home section:first-child>div{display: flex;justify-content: center;margin-bottom: 5rem;}
   main.home img{margin-right: 5rem;}
   main.about section .img {display: flex;}
   main.about section .img img{width: 480px; height: 276px;margin-right: 1rem;}
   main.about section .img div{display: flex;flex-direction: column;justify-content: center;}
+  main.class{display: flex;justify-content: space-around;-ms-align-items: center;align-items: center;text-align: center;}
+  main.class section{padding: 2rem 3rem;border: 1px solid #fff;}
+  main.class h3{padding: .5rem;}
+  main.class section div{padding: 0;}
 }
 
 /* Footer */
