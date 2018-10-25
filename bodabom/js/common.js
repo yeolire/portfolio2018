@@ -37,7 +37,7 @@ function hideNav(){
     }else{
       nav.style.background='none';
     }
-    if(current<prev){
+    if(current<prev||prev<0){
       nav.style.top='0';
     }else{
       nav.style.top='-80px';
