@@ -1,5 +1,6 @@
 toggleMenu();
 hideNav();
+tabMenu();
 
 function toggleMenu(){
   const nav=document.querySelector('header nav');
@@ -42,5 +43,22 @@ function hideNav(){
       nav.style.top='-80px';
     }
     prev=current;
+  }
+}
+
+function tabMenu(){
+  const btns=Array.from(document.querySelectorAll('.order .tab button'));
+  btns.forEach(function(btn){
+    btn.addEventListener('click',open);
+  });
+  function open(){
+    const contents=document.querySelectorAll('.order .table');
+    for(let i=0, item;item=btns[i];i++){
+      btns[i].classList.remove('on');
+      contents[i].classList.remove('on');
+    }
+    this.classList.add('on');
+    let i=btns.indexOf(this);
+    contents[i].classList.add('on');
   }
 }

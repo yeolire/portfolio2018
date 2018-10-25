@@ -54,10 +54,24 @@ main.home section{display: block;height: auto;}
 main.home section:first-child h3{margin: 2rem 0;}
 main.about section img{display: block;width: 80%;margin: 1rem auto;}
 main.order section.align-center div{padding: 1rem;border: 1px solid #fff;}
+main.order .tab{width: 100%;padding: 0;display: flex;justify-content: center;}
+main.order .tab button{flex: 1 0;height: 3rem;margin-top: 1rem;border: 1px solid #fff;border-bottom: none;color: #fff;}
+main.order .tab button ~button{border-left: none;}
+main.order .tab button.on{background: #fff;color: #000;}
+main.order .table{display: none;width: 100%;position: relative;overflow: hidden;border: 1px solid #fff;padding: 0;text-align: center;}
+main.order .table.on{display: block;}
+main.order .table>div{overflow-x: scroll;height: auto;}
+main.order table{table-layout: fixed;border-collapse: collapse;padding: 1rem 0;width: 100%;column-width: 100px;border-bottom: 1px dotted #fff;}
+th{padding: 1rem 0 .5rem;background: #000;}
+td, th{width: 6rem;height: 3rem;}
+main.order .text{padding: 1rem;}
 @media screen and (max-width:699px) {
   main.home{margin-top: 100vh;}
   main.home section:first-child div{text-align: center;}
   main.home img{display: block;margin: 1rem auto;}
+  main.order .tab button{font-size: 3.33vw;}
+  main.order table{font-size: 3.33vw;}
+  th:first-of-type, tr:first-of-type{width: 20vw;}
 }
 @media screen and (min-width: 700px) {
   main{max-width: 980px;width: 100%;margin: 0 auto;padding: 2rem;}
