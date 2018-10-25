@@ -6,7 +6,7 @@ header hgroup img{width: 40px;height: 20px;margin-bottom: 5px;align-self: flex-e
 header hgroup h1{font-size: 1.5rem;}
 header button{display: none;position: absolute;top: 6vw;right: 6vw;z-index: 1;}
 header button.on{display: block;}
-header nav a:hover{font-weight: bold;}
+header nav a.on, header nav a:hover{font-weight: bold;}
 @media screen and (max-width:699px) {
   header nav{display: none;position: fixed;top: 0;right: 0;width: 70vw;height: 100vh;background: #333;padding-top: 12vw;}
   header nav a{width: 100%;padding: 1rem 12vw;font-size: 1.5rem;}
