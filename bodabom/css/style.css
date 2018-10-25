@@ -34,7 +34,7 @@ header nav a:hover{font-weight: bold;}
 #visual{width: 100%;height: 35vh;text-align: center;top: 60px;}
 #visual .cover{display: flex;flex-direction: column;justify-content: center;padding: 2rem;}
 #visual h2{margin-bottom: 1rem;}
-
+#visual h2::before{content: "";display: block;width: 100%;height: 4rem;}
 #visual.about{background: url(../img/about.jpg);background-size: cover;}
 #visual.order{background: url(../img/order.jpg);background-size: cover;}
 #visual.class{background: url(../img/class.jpg);background-size: cover;}
@@ -50,11 +50,12 @@ main section{margin-bottom: 12vw;}
 main section h3{font-size: 1.5rem;margin-bottom: .5rem;}
 main section p{padding: .5rem;}
 main section
-main.home{margin-top: 100vh;padding: 6vw;}
 main.home section{display: block;height: auto;}
 main.home section:first-child h3{margin: 2rem 0;}
 main.about section img{display: block;width: 80%;margin: 1rem auto;}
+main.order section.align-center div{padding: 1rem;border: 1px solid #fff;}
 @media screen and (max-width:699px) {
+  main.home{margin-top: 100vh;}
   main.home section:first-child div{text-align: center;}
   main.home img{display: block;margin: 1rem auto;}
 }
