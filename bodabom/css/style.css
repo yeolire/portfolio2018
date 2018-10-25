@@ -8,7 +8,7 @@ header button{display: none;position: absolute;top: 6vw;right: 6vw;z-index: 1;tr
 header button.on{display: block;}
 header nav a.on, header nav a:hover{font-weight: bold;}
 @media screen and (max-width:699px) {
-  header hgroup h1{font-size: 1.2rem;opacity: 0.8;}
+  header hgroup h1{font-size: 5vw;opacity: 0.8;}
   header nav{display: none;position: fixed;top: 0;right: 0;width: 70vw;height: 100vh;background: #333;padding-top: 12vw;}
   header nav a{width: 100%;padding: 1rem 12vw;font-size: 1.5rem;}
 }
@@ -40,6 +40,9 @@ header nav a.on, header nav a:hover{font-weight: bold;}
 #visual.order{background-image: url(../img/order.jpg);background-position: center;}
 #visual.class{background-image: url(../img/class.jpg);background-position: center 60%;}
 #visual.gallery{background-image: url(../img/gallery.jpg);background-position: center 70%;}
+@media screen and (max-width:699px) {
+  #visual h2{font-size: 6.666vw;}
+}
 @media screen and (min-width: 700px) {
   #visual{height: 40vh;top: 80px;}
 }
