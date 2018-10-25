@@ -4,11 +4,11 @@ header hgroup a{display: flex;}
 header hgroup h1 span{color: #C4FF00;}
 header hgroup img{width: 40px;height: 20px;margin-bottom: 5px;align-self: flex-end;}
 header hgroup h1{font-size: 1.5rem;}
-header button{display: none;position: absolute;top: 6vw;right: 6vw;z-index: 1;}
+header button{display: none;position: absolute;top: 6vw;right: 6vw;z-index: 1;transform: rotateY(180deg);}
 header button.on{display: block;}
 header nav a.on, header nav a:hover{font-weight: bold;}
 @media screen and (max-width:699px) {
-  header hgroup h1{font-size: 5vw;opacity: 0.8;}
+  header hgroup h1{font-size: 1.2rem;opacity: 0.8;}
   header nav{display: none;position: fixed;top: 0;right: 0;width: 70vw;height: 100vh;background: #333;padding-top: 12vw;}
   header nav a{width: 100%;padding: 1rem 12vw;font-size: 1.5rem;}
 }
