@@ -101,7 +101,7 @@ footer p{color: #ccc;font-size: 2vw;}
 }
 
 /* for IE */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
   header{transition: none;}
   #home p{width: 100%;border-bottom: none;}
   .sound_only{text-indent: 0;line-height: normal;font-size: inherit;}
