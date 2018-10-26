@@ -107,6 +107,7 @@ footer p{color: #ccc;font-size: 2vw;}
   #home p{width: 100%;border-bottom: none;}
   .sound_only{text-indent: 0;line-height: normal;font-size: inherit;}
   main.order .tab{display: none;}
+  main.order div{display: inline-block;}
   main.order table{display: block;}
   main.order caption{padding-top: 1rem;font-size: 2rem;font-weight: bold;}
 }
