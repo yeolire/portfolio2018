@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,24 @@
   <title>Document</title>
   <link rel="shortcut icon" href="img/subway_favicon.ico">
   <script>
-    var X=(window.screen.width/2)-(357/2);
-    var Y=(window.screen.height/2)-(667/2);
-    window.open('html/login.html', 'subway', 'top='+Y+', left='+X+', width=357, height=667, directorties=no, location=no, menubar=no, resizable=no, status=no, toolbar=no');
-    window.close();
+    var width = innerWidth;
+    if (width > 500) {
+      popup();
+      window.close();
+    } else {
+      location.href = 'html/login.html';
+    }
+
+    function popup() {
+      var X = (screen.width / 2) - (357 / 2);
+      var Y = (screen.height / 2) - (667 / 2);
+      window.open('html/login.html', 'subway', 'top=' + Y + ', left=' + X + ', width=357, height=667, directorties=no, location=no, menubar=no, resizable=no, status=no, toolbar=no');
+    }
   </script>
 </head>
+
 <body>
 
 </body>
+
 </html>
