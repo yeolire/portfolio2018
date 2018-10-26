@@ -11,7 +11,7 @@
     var width = innerWidth;
     if (width > 500) {
       popup();
-      window.close();
+      setTimeout(history.back(),0);
     } else {
       location.href = 'html/login.html';
     }
