@@ -22,7 +22,6 @@
 - Layout: position, flex 사용  
 - CSS Media Query와 JavaScript를 활용한 반응형 페이지
 - Cross browsing: Chrome, FireFox, Safari, Edge, IE  
-더 수정해야 하는거
 *더 추가하려는 기능: 이미지 갤러리 로딩, SEO*
 
 
