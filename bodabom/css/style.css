@@ -103,7 +103,10 @@ footer p{color: #ccc;font-size: 2vw;}
 /* for IE */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
   header{transition: none;}
+  #home .cover{justify-content: flex-start;}
   #home p{width: 100%;border-bottom: none;}
   .sound_only{text-indent: 0;line-height: normal;font-size: inherit;}
   main.order .tab{display: none;}
+  main.order table{display: block;}
+  main.order caption{padding-top: 1rem;font-size: 2rem;font-weight: bold;}
 }
