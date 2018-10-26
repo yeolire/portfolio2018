@@ -100,4 +100,5 @@ footer div{max-width: 980px;width: 100%;margin: 0 auto;text-align: center;}
 /* for IE11 */
 @media screen and (-ms-high-consrast: active), (-ms-hogh-contrast: none){
   header{transition: 0;}
+  main.order .table>div{overflow: visible;}
 }
