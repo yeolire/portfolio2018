@@ -100,7 +100,10 @@ footer p{color: #ccc;font-size: 2vw;}
   footer p{font-size: 0.8rem;}
 }
 
-/* for IE11 */
-@media screen and (-ms-high-consrast: active), (-ms-hogh-contrast: none){
+/* for IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){}
   header{transition: none;}
+  #home p{width: 100%;border-bottom: none;}
+  .sound_only{text-indent: 0;line-height: normal;font-size: inherit;}
+  main.order .tab{display: none;}
 }
