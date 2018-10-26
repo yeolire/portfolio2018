@@ -22,10 +22,10 @@
 - Layout: position, flex 사용  
 - CSS Media Query와 JavaScript를 활용한 반응형 페이지
 - Cross browsing: Chrome, FireFox, Safari, Edge, IE  
-*더 수정해야 하는거
+더 수정해야 하는거
 1. 엣지랑 IE에서 데스크탑 화면인데도 가로 스크롤바 보이는거 수정
 2. 홈 화면 공지사항
-3. 모바일버전 footer 글씨 좀 더 눈에 안 띄게(작게하거나 글씨 색 조정)*
+3. 모바일버전 footer 글씨 좀 더 눈에 안 띄게(작게하거나 글씨 색 조정)  
 *더 추가하려는 기능: 이미지 갤러리 로딩, SEO*
 
 

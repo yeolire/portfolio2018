@@ -93,8 +93,10 @@ main.order .text{padding: 1rem;}
 /* Footer */
 footer{width: 100%;background: #333;padding: 6vmin;-ms-word-break: keep-all;word-break: keep-all;}
 footer div{max-width: 980px;width: 100%;margin: 0 auto;text-align: center;}
+footer p{color: #ccc;font-size: 2vw;}
 @media screen and (min-width: 700px) {
   footer{padding: 1.5rem;}
+  footer p{font-size: 0.8rem;}
 }
 
 /* for IE11 */
