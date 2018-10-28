@@ -1,24 +1,50 @@
-gallery();
+scrolling();
+modal();
 
-function gallery() {
-  var num=6;
+function scrolling() {
+  var num = 6;
   window.onscroll = function() {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight && num<=15) {
-        addImg();
-        addImg();
-        addImg();
-      }
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight && num <= 15) {
+      addImg();
+      addImg();
+      addImg();
+      modal();
+    }
   }
-  function addImg(){
+  function addImg() {
     num++;
-    var i=num-1;
+    var i = num - 1;
     var add_div = document.createElement('div');
     var add_img = document.createElement('img');
     add_div.appendChild(add_img);
     document.querySelector('main.gallery').appendChild(add_div);
-    var img=document.querySelectorAll('main.gallery div img');
-    img[i].src='../img/gallery/gallery'+num+'.jpg';
-    img[i].alt='sample photo'+num;
+    var img = document.querySelectorAll('main.gallery div img');
+    img[i].src = '../img/gallery/gallery' + num + '.jpg';
+    img[i].alt = 'sample photo' + num;
     return num;
+  }
+}
+
+function modal() {
+  var images = Array.from(document.querySelectorAll('main.gallery div img'));
+  var modal = document.getElementById('modal');
+  var close_btn=document.querySelector('.close');
+  images.forEach(function(img) {
+    img.addEventListener('click', open);
+  });
+  close_btn.onclick=close();
+  window.onclick = function(e) {
+    if (e.target == modal) {
+      close();
+    }
+  }
+  function open() {
+    var i = images.indexOf(this);
+    var modalImg=document.querySelector('#modal img');
+    modalImg.src=images[i].src;
+    modal.style.display = 'block';
+  }
+  function close(){
+    modal.style.display='none';
   }
 }

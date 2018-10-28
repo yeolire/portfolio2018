@@ -49,7 +49,7 @@ function hideNav(){
 function tabMenu(){
   const btns=Array.from(document.querySelectorAll('.order .tab button'));
   btns.forEach(function(btn){
-    btn.addEventListener('click',open);
+    btn.addEventListener('click', open);
   });
   function open(){
     const contents=document.querySelectorAll('.order .table');

@@ -1,7 +1,10 @@
 main.gallery{width: 100vmin;margin-bottom: 2rem;padding: 0 .5rem;display: flex;justify-content: space-around;-ms-align-items: flex-start; align-items:flex-start;flex-wrap: wrap;}
 main.gallery div{margin: .5rem 0;width: 30vmin;height: 30vmin;overflow: hidden;}
-main.gallery div img{height: 100%;}
-
+main.gallery div img{height: 100%;cursor: pointer;}
 @media screen and (max-width:699px) {
   main.gallery div{width: 45vmin;height: 45vmin;}
 }
+
+#modal{display: none;position: fixed;top: 0;width: 100vw;height: 100vh;background: rgba(0,0,0,.8);z-index: 1;cursor: pointer;}
+#modal .close{float: right;padding: 1rem;font-size: 2rem;font-weight: bold;color: #aaa;cursor: pointer;}
+#modal img{width: 95%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);cursor: default;}
