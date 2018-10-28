@@ -23,7 +23,6 @@
 - CSS Media Query와 JavaScript를 활용한 반응형 페이지
 - Cross browsing: Chrome, FireFox, Safari, Edge, IE
 - Tab menu, Toggle menu, Image gallery (Infinite scrolling & Modal box)
-*더 추가하려는 기능: 이미지 갤러리 로딩, SEO*
 
 
 ## [어둠속의 대화](https://yeolire.github.io/portfolio2018/dialogueInTheDark)
