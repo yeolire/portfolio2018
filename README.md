@@ -25,7 +25,11 @@
 - Tab menu, Toggle menu, Image gallery (Infinite scrolling & Modal box)
 
 
+## [H&M](https://yeolire.github.io/portfolio2018/hm)
+### 데스크탑 홈페이지 리뉴얼
+- **HTML**, **CSS**, **JavaScript**  
+*도입해 보려는 것: CSS BEM 방법론, SCSS/SASS, Node.js로 단순 반복 작업 줄이기*
+
 ## [어둠속의 대화](https://yeolire.github.io/portfolio2018/dialogueInTheDark)
 ### 반응형 홈페이지 리뉴얼
 - **HTML**, **CSS**, **JavaScript**  
-*도입해 보려는 것: CSS BEM 방법론, SCSS/SASS, Node.js로 단순 반복 작업 줄이기*
