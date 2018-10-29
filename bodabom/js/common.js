@@ -33,8 +33,6 @@ function hideNav() {
   const nav = document.querySelector('header');
   let prev = window.pageYOffset;
   window.addEventListener('scroll', function() {
-    console.log('what is happening??????');
-
     let current = window.pageYOffset;
     if (current > innerHeight * 0.4) {
       nav.style.background = '#000';
