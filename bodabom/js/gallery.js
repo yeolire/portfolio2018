@@ -33,11 +33,11 @@ function modal() {
     img.addEventListener('click', open);
   });
   close_btn.addEventListener('click', close);
-  window.onclick = function(e) {
+  window.addEventListener('click', function(e) {
     if (e.target == modal) {
       close();
     }
-  }
+  });
   function open() {
     var i = images.indexOf(this);
     var modalImg = document.querySelector('#modal img');
