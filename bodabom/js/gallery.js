@@ -26,10 +26,10 @@ function scrolling() {
 }
 
 function modal() {
-  var images = Array.from(document.querySelectorAll('main.gallery div img'));
+  var images = document.querySelectorAll('main.gallery div img');
   var modal = document.getElementById('modal');
   var close_btn = document.querySelector('#modal .close');
-  images.forEach(function(img) {
+  Array.prototype.forEach.call(images, function(img) {
     img.addEventListener('click', open);
   });
   close_btn.addEventListener('click', close);
@@ -39,7 +39,7 @@ function modal() {
     }
   });
   function open() {
-    var i = images.indexOf(this);
+    var i = Array.prototype.indexOf.call(images, this);
     var modalImg = document.querySelector('#modal img');
     modalImg.src = images[i].src;
     modal.style.display = 'block';
