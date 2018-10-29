@@ -3,14 +3,14 @@ modal();
 
 function scrolling() {
   var num = 6;
-  window.onscroll = function() {
+  window.addEventListener('scroll', function() {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight && num <= 15) {
       addImg();
       addImg();
       addImg();
       modal();
     }
-  }
+  });
   function addImg() {
     num++;
     var i = num - 1;
@@ -28,7 +28,7 @@ function scrolling() {
 function modal() {
   var images = Array.from(document.querySelectorAll('main.gallery div img'));
   var modal = document.getElementById('modal');
-  var close_btn=document.querySelector('#modal .close');
+  var close_btn = document.querySelector('#modal .close');
   images.forEach(function(img) {
     img.addEventListener('click', open);
   });
@@ -40,11 +40,11 @@ function modal() {
   }
   function open() {
     var i = images.indexOf(this);
-    var modalImg=document.querySelector('#modal img');
-    modalImg.src=images[i].src;
+    var modalImg = document.querySelector('#modal img');
+    modalImg.src = images[i].src;
     modal.style.display = 'block';
   }
-  function close(){
-    modal.style.display='none';
+  function close() {
+    modal.style.display = 'none';
   }
 }
