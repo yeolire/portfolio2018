@@ -28,11 +28,11 @@ function scrolling() {
 function modal() {
   var images = Array.from(document.querySelectorAll('main.gallery div img'));
   var modal = document.getElementById('modal');
-  var close_btn=document.querySelector('.close');
+  var close_btn=document.querySelector('#modal .close');
   images.forEach(function(img) {
     img.addEventListener('click', open);
   });
-  close_btn.onclick=close();
+  close_btn.addEventListener('click', close);
   window.onclick = function(e) {
     if (e.target == modal) {
       close();
