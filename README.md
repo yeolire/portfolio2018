@@ -22,7 +22,7 @@
 - Layout: position, flex 사용  
 - CSS Media Query와 JavaScript를 활용한 반응형 페이지
 - Cross browsing: Chrome, FireFox, Safari, Edge, IE
-- Tab menu, Toggle menu, Image gallery (Infinite scrolling & Modal box)
+- Hiding navigation bar on scroll, Toggle menu, Tab menu, Image gallery (Infinite scrolling & Modal box)  
 
 
 ## [H&M](https://yeolire.github.io/portfolio2018/hm)
