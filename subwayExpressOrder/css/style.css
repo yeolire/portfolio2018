@@ -109,8 +109,7 @@ p{color: #aaa;font-size: .8rem;}
 #list section:not(.ad){display: grid;grid-template-columns: 1fr 3fr;padding: .5rem;}
 #list section.bell{background: #A4C55A;}
 #list section.stampcard{background: #FFC80F;}
-#list section.ad{background: #E2DFDA;height: 126.5px;}
-#list section.ad img{height: 126.5px;}
+#list section.ad{background: #E2DFDA;}
 #list section p{display: flex;align-items: center;font-weight: bold;color: #fff;font-size: .9rem;margin-top: 0;padding: .3rem;word-break: keep-all;}
 #list section:last-child{margin-bottom: 3.5rem;}
 
