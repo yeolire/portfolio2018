@@ -1,7 +1,7 @@
 main.gallery{width: 100vmin;margin-bottom: 2rem;padding: 0 .5rem;display: flex;justify-content: space-around;-ms-align-items: flex-start; align-items:flex-start;flex-wrap: wrap;}
 main.gallery div{margin: .5rem 0;width: 30vmin;height: 30vmin;overflow: hidden;}
 main.gallery div img{height: 100%;cursor: pointer;}
-@media screen and (max-width:699px) {
+@media screen and (max-width:599px) {
   main.gallery div{width: 45vmin;height: 45vmin;}
 }
 

@@ -7,12 +7,12 @@ header hgroup h1{font-size: 1.5rem;}
 header button{display: none;position: absolute;top: 6vmin;right: 6vmin;z-index: 1;transform: rotateY(180deg);}
 header button.on{display: block;}
 header nav a.on, header nav a:hover{font-weight: bold;}
-@media screen and (max-width:699px) {
+@media screen and (max-width:599px) {
   header hgroup h1{font-size: 5vmin;opacity: 0.8;}
   header nav{display: none;position: fixed;top: 0;right: 0;width: 70vmin;height: 100vh;background: #333;padding-top: 12vmin;}
   header nav a{width: 100%;padding: 1rem 12vmin;font-size: 1.5rem;}
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   header{height: 80px;padding: 1.5rem;}
   header hgroup{flex-basis: 40%;}
   header hgroup h1{font-size: 1.5rem;padding-left: 30px;}
@@ -27,7 +27,7 @@ header nav a.on, header nav a:hover{font-weight: bold;}
 #home .cover{display: flex;justify-content: center;-ms-align-items:  center;align-items: center;background: rgba(0,0,0,.2);z-index: -1;}
 #home p{position: absolute;width: 70vmin;padding: 5rem 1rem;text-align: center;font-size: 1.5rem;border: 1px solid #fff;line-height: 2.5rem;font-weight: bold;}
 #home img{position: absolute;bottom: 5vh;width: 20px;}
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   #home p{width: auto;font-size: 2rem;padding:1rem;border: none;border-bottom: 1px solid #fff;font-weight: normal;}
 }
 
@@ -40,10 +40,10 @@ header nav a.on, header nav a:hover{font-weight: bold;}
 #visual.order{background-image: url(../img/order.jpg);background-position: center;}
 #visual.class{background-image: url(../img/class.jpg);background-position: center 60%;}
 #visual.gallery{background-image: url(../img/gallery.jpg);background-position: center 70%;}
-@media screen and (max-width:699px) {
+@media screen and (max-width:599px) {
   #visual h2{font-size: 6.666vmin;}
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   #visual{height: 40vh;top: 80px;}
 }
 
@@ -70,14 +70,14 @@ main.order table{table-layout: fixed;border-collapse: collapse;padding: 1rem 0;w
 th{padding: 1rem 0 .5rem;background: #000;}
 td, th{width: 6rem;height: 3rem;}
 main.order .text{padding: 1rem;}
-@media screen and (max-width:699px) {
+@media screen and (max-width:599px) {
   main.home section:first-child div{text-align: center;}
   main.home img{display: block;margin: 1rem auto;}
   main.order .tab button{font-size: 3.33vmin;}
   main.order table{font-size: 3.33vmin;}
   th:first-of-type, tr:first-of-type{width: 20vmin;}
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   main{max-width: 980px;width: 100%;margin: 0 auto;padding: 2rem;min-height: calc(100vh - 40vh)}
   main section{margin-bottom: 4rem;}
   main.home section:first-child>div{display: flex;justify-content: center;margin-bottom: 5rem;}
@@ -95,7 +95,7 @@ main.order .text{padding: 1rem;}
 footer{width: 100%;background: #333;padding: 6vmin;-ms-word-break: keep-all;word-break: keep-all;}
 footer div{max-width: 980px;width: 100%;margin: 0 auto;text-align: center;}
 footer p{color: #ccc;font-size: 2vw;}
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   footer{padding: 1.5rem;}
   footer p{font-size: 0.8rem;}
 }
