@@ -1,0 +1,32 @@
+@charset "utf-8"; 
+
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 400;
+ src: url(/font/NanumBarunGothicWeb.eot);
+ src: url(/font/NanumBarunGothicWeb.eot?#iefix) format('embedded-opentype'),
+      url(/font/NanumBarunGothicWeb.woff) format('woff'),
+      url(/font/NanumBarunGothicWeb.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumBarunGothicUltraLight';
+ font-style: normal;
+ font-weight: 400;
+ src: url(/font/NanumBarunGothicWebUltraLight_11172.eot);
+ src: url(/font/NanumBarunGothicWebUltraLight_11172.eot?#iefix) format('embedded-opentype'),
+      url(/font/NanumBarunGothicWebUltraLight_11172.woff) format('woff'),
+      url(/font/NanumBarunGothicWebUltraLight_11172.ttf) format('truetype');
+}
+/*
+ * AvenirNextLTPro-Thin Font
+ */
+@font-face {
+ font-family: 'AvenirNext LT Pro Thin';
+ font-style: normal;
+ font-weight: 400;
+ src: url(../font/AvenirNextLTPro-Thin.eot);
+ src: url(../font/AvenirNextLTPro-Thin.eot?#iefix) format('embedded-opentype'),
+      url(../font/AvenirNextLTPro-Thin.woff) format('woff'),
+      url(../font/AvenirNextLTPro-Thin.ttf) format('truetype');
+}
