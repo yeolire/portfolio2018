@@ -11,6 +11,7 @@
 *추가하려는 기능: 지도 API, 구글/페이스북으로 로그인, 로그인 형식 검사*
 
 
+
 ## [보다봄 현상소](https://yeolire.github.io/portfolio2018/bodabom)
 ### 반응형 홈페이지 리뉴얼
 **"필름카메라 사용자를 위한 직관적이면서도 아름다운 홈페이지"**
@@ -25,11 +26,20 @@
 - Hiding navigation bar on scroll, Toggle menu, Tab menu, Image gallery (Infinite scrolling & Modal box)  
 
 
+
 ## [H&M](https://yeolire.github.io/portfolio2018/hm)
 ### 데스크탑 홈페이지 리뉴얼
 - **HTML**, **CSS**, **JavaScript**  
 *도입해 보려는 것: CSS BEM 방법론, SCSS/SASS, Node.js로 단순 반복 작업 줄이기*
 
+
+
 ## [어둠속의 대화](https://yeolire.github.io/portfolio2018/dialogueInTheDark)
-### 반응형 홈페이지 리뉴얼
+### 단일페이지 웹사이트 리뉴얼
+**쉽고 가볍게**  
+> 원래 홈페이지는 스크롤 효과가 작동이 잘 안 됨 ㅠㅠ 그리고 뭔가 세련되긴 한데... 좋긴 한데 뭔가 조금 부족한 느낌... 내가 그 부족한 걸 한번 채워보겠다 ㅎ..  
+> 온라인 브로슈어 만드는 느낌으로! 정말로 필요한 정보만 모아서  
+> 전시 컨셉이 어둠인 만큼 색은 제한적으로 사용(black & white), 그리고 전시 취지에 맞게 시각 장애인이나 저시력자도 홈페이지 이용에 문제 없도록 평소보다 더 신경써서  
+> 이건 후딱 끝내보자,,,, 원페이지니까,,, 그럴 수 있겠지,,,
 - **HTML**, **CSS**, **JavaScript**  
+- JS 플러그인 적용(fullPage.js) 하려고 했는데... flex가 안먹네....  
