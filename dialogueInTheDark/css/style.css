@@ -79,7 +79,7 @@ section h2 {
 }
 
 section p {
-  max-width: 80%;
+  max-width: 65%;
   color: dimgray;
 }
 
@@ -90,6 +90,7 @@ section p {
 #main h2{
   letter-spacing: 1rem;
   font-size: 4rem;
+  line-height: 4.5rem;
 }
 
 #introduce {
@@ -102,6 +103,13 @@ section p {
 
 #second {
   background-image: url(../img/bg_sec_03.jpg);
+}
+
+#wwide{
+  background-image: url(../img/bg_map.png);
+  -webkit-background-size: 70%;
+  background-size: 70%;
+  background-repeat: no-repeat;
 }
 
 #guide {
@@ -152,7 +160,15 @@ footer {
   align-items: center;
   padding: 1rem;
   color: dimgray;
-  text-align: right;
+  padding: 2rem 5rem;
+}
+
+.footer-text{
+  width: 70%;
+}
+
+.footer-text-company span{
+  padding-right: 2rem;
 }
 
 @media screen and (max-width:600px) {
@@ -161,5 +177,28 @@ footer {
   }
   section {
     padding: 2rem;
+  }
+  section p{
+    display: none;
+  }
+
+  #location{
+    padding: 0;
+  }
+  footer{
+    padding: 2rem;
+  }
+
+  th{
+    display: none;
+  }
+
+  .footer-img{
+    display: none;
+  }
+
+  .footer-text{
+    width: 100%;
+    text-align: center;
   }
 }
