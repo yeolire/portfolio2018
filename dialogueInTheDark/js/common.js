@@ -6,6 +6,7 @@ function shirinkNav() {
   window.addEventListener('scroll', shirink);
 
   function shirink() {
+    console.log('??');
     for (var i = 0, item; item - logo[i]; i++) {
     }
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {

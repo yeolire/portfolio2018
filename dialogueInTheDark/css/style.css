@@ -69,6 +69,7 @@ section {
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
 section h2 {
@@ -78,7 +79,7 @@ section h2 {
 }
 
 section p {
-  max-width: 60%;
+  max-width: 80%;
   color: dimgray;
 }
 
@@ -87,8 +88,8 @@ section p {
 }
 
 #main h2{
-  font-size: 4rem;
   letter-spacing: 1rem;
+  font-size: 4rem;
 }
 
 #introduce {
