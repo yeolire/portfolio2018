@@ -78,40 +78,36 @@ section h2 {
   font-size: 2rem;
 }
 
-section h3{
+section h3 {
   width: 50%;
   margin-bottom: 2rem;
   opacity: .7;
 }
 
-[class$=text]{
+[class$=text] {
   width: 70%;
   opacity: .6;
 }
 
-[class$=text]:not(.location-text, .footer-text)::before{
+[class$=text]:not(.location-text, .footer-text)::before {
   content: "-";
   display: block;
   color: #fff;
   font-size: 3rem;
 }
 
-.wwide-text{
+.wwide-text {
   text-shadow: 0 0 10px #000;
   opacity: 1;
 }
 
-.guide-text{
-  opacity: 1;
-}
-
-.reservation-text a{
+.reservation-text a {
   padding: 1rem 2rem;
   margin: 1rem;
   border: 1px solid #fff;
 }
 
-.location-text{
+.location-text {
   margin-top: 1rem;
 }
 
@@ -119,7 +115,7 @@ section h3{
   background-image: url(../img/bg_sec_01.jpg);
 }
 
-#main h2{
+#main h2 {
   letter-spacing: 1rem;
   font-size: 4rem;
   line-height: 4.5rem;
@@ -137,7 +133,7 @@ section h3{
   background-image: url(../img/bg_sec_03.jpg);
 }
 
-#wwide{
+#wwide {
   background-image: url(../img/bg_map.png);
   -webkit-background-size: 70%;
   background-size: 70%;
@@ -172,7 +168,6 @@ section h3{
   background-size: cover;
 }
 
-
 footer {
   display: flex;
   justify-content: space-around;
@@ -183,11 +178,11 @@ footer {
   padding: 2rem 5rem;
 }
 
-.footer-text{
+.footer-text {
   width: 70%;
 }
 
-.footer-text-company span{
+.footer-text-company span {
   padding-right: 2rem;
 }
 
@@ -198,34 +193,29 @@ footer {
   section {
     padding: 2rem;
   }
-
-  section h3{
+  section h3 {
     width: 95%;
   }
-
-  [class$=text]{
+  [class$=text] {
     width: 95%;
     font-size: 3.333vw;
+    line-height: 6vw;
   }
-
-  #introduce h2{
+  #introduce h2 {
     padding: 2rem 1.5rem;
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
-  #location{
+  #location {
     padding: 0;
   }
-  footer{
+  footer {
     padding: 2rem;
   }
-
-  .footer-img{
+  .footer-img {
     display: none;
   }
-
-  .footer-text{
+  .footer-text {
     width: 100%;
     text-align: center;
   }
