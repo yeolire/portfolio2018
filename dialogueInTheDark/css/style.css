@@ -74,13 +74,45 @@ section {
 
 section h2 {
   margin: 1rem;
-  padding: 3rem;
+  padding: 1rem 3rem;
   font-size: 2rem;
 }
 
-section p {
-  max-width: 65%;
-  color: dimgray;
+section h3{
+  width: 50%;
+  margin-bottom: 2rem;
+  opacity: .7;
+}
+
+[class$=text]{
+  width: 70%;
+  opacity: .6;
+}
+
+[class$=text]:not(.location-text, .footer-text)::before{
+  content: "-";
+  display: block;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.wwide-text{
+  text-shadow: 0 0 10px #000;
+  opacity: 1;
+}
+
+.guide-text{
+  opacity: 1;
+}
+
+.reservation-text a{
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border: 1px solid #fff;
+}
+
+.location-text{
+  margin-top: 1rem;
 }
 
 #main {
@@ -124,7 +156,7 @@ section p {
   padding-right: 0;
 }
 
-#location .adress {
+#location h2 {
   width: 100%;
   height: 60%;
   display: flex;
@@ -140,18 +172,6 @@ section p {
   background-size: cover;
 }
 
-#location .table {
-  width: 70%;
-  height: 40%;
-  display: flex;
-  -ms-align-items: center;
-  align-items: center;
-}
-
-#location table th, #location table td {
-  padding: .5rem;
-  font-size: .8rem;
-}
 
 footer {
   display: flex;
@@ -178,8 +198,20 @@ footer {
   section {
     padding: 2rem;
   }
-  section p{
-    display: none;
+
+  section h3{
+    width: 95%;
+  }
+
+  [class$=text]{
+    width: 95%;
+    font-size: 3.333vw;
+  }
+
+  #introduce h2{
+    padding: 2rem 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   #location{
@@ -187,10 +219,6 @@ footer {
   }
   footer{
     padding: 2rem;
-  }
-
-  th{
-    display: none;
   }
 
   .footer-img{
