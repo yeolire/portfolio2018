@@ -187,6 +187,12 @@ footer {
 }
 
 @media screen and (max-width:600px) {
+  header {
+    background: none;
+  }
+  header img:last-child {
+    display: none;
+  }
   #menu {
     display: none;
   }
