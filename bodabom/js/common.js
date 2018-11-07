@@ -35,7 +35,7 @@ function hideNav() {
   window.addEventListener('scroll', function() {
     let current = window.pageYOffset;
     if (current > innerHeight * 0.4) {
-      nav.style.background = '#000';
+      nav.style.background = '#10110e';
     } else {
       nav.style.background = 'none';
     }
