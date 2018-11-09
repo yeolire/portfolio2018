@@ -1,1 +1,51 @@
+body {
+  word-break: keep-all;
+  background: #f8f9fa;
+}
 
+.header-img {
+  height: 60vh;
+  background-image: url(../img/main_bg_img02.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+#nav {
+  background: #302b6d;
+}
+
+.flcenter, #content>section>div {
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#content {
+  margin-top: 1rem;
+}
+
+#content>section {
+  margin: 2rem 0;
+}
+
+/* index */
+
+.about-icon {
+  flex-wrap: wrap;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #302b6d;
+}
+
+.about-article {
+  text-align: justify;
+}
+
+.about-title {
+  margin-top: 1.5rem;
+  color: #feae01;
+}

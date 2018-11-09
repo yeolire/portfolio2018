@@ -10,102 +10,127 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <style>
-    body {
-      word-break: keep-all;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="container-fluid" style="height:60vh;background-image: url(img/main_bg_img02.jpg) !important;background-size:cover;">
-      <div class="container h-100 p-5" style="color: #fff;">
-        <h1 class="display-3">서울 남산 타워</h1>
-        <p class="lead">서울의 중심에서 만나는 특별한 순간</p>
-        <!-- <p class="lead">서울을 대표하는 복합문화공간 남산서울타워에서 잊지못할 순간들을 경험하세요.</p> -->
-      </div>
+  <!-- Header image -->
+  <div class="header-img container-fluid">
+    <div class="container h-100 p-5">
+      <h1 class="display-3">서울 남산 타워</h1>
+      <p class="lead">서울의 중심에서 만나는 특별한 순간</p>
     </div>
+  </div>
 
-    <nav class="navbar justify-content-between sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img width="120"src="img/main_title_logo.png" alt="logo"></a>
+  <!-- Navigation -->
+  <nav id="nav" class="navbar justify-content-between sticky-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img width="120"src="img/main_title_logo.png" alt="logo"></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbar-toggle">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <div class="dropdown active">
-                <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="intro">남산서울타워 <span class="sr-only">(current)</span></a>
-                <div class="dropdown-menu" aria-labelledby="intro">
-                  <a href="#" class="dropdown-item">역사</a>
-                  <a href="#" class="dropdown-item">브랜드 스토리</a>
-                  <a href="#" class="dropdown-item disabled">세계의 타워</a>
-                  <a href="#" class="dropdown-item disabled">공지사항</a>
-                  <a href="#" class="dropdown-item disabled">대관안내</a>
-                  <a href="#" class="dropdown-item disabled">이벤트</a>
-                </div>
+      <div class="collapse navbar-collapse" id="navbar-toggle">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="intro">남산서울타워 <span class="sr-only">(current)</span></a>
+              <div class="dropdown-menu" aria-labelledby="intro">
+                <a href="#" class="dropdown-item">역사</a>
+                <a href="#" class="dropdown-item">브랜드 스토리</a>
+                <a href="#" class="dropdown-item disabled">세계의 타워</a>
+                <a href="#" class="dropdown-item disabled">공지사항</a>
+                <a href="#" class="dropdown-item disabled">대관안내</a>
+                <a href="#" class="dropdown-item disabled">이벤트</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="course">남산 추천코스</a>
-                <div class="dropdown-menu" aria-labelledby="course">
-                  <a href="#" class="dropdown-item">추천코스</a>
-                  <a href="#" class="dropdown-item">테마코스</a>
-                  <a href="#" class="dropdown-item">포토존</a>
-                  <a href="#" class="dropdown-item">타워 인사이드</a>
-                  <a href="#" class="dropdown-item">남산 관광명소</a>
-                </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="course">남산 추천코스</a>
+              <div class="dropdown-menu" aria-labelledby="course">
+                <a href="#" class="dropdown-item">추천코스</a>
+                <a href="#" class="dropdown-item">테마코스</a>
+                <a href="#" class="dropdown-item">포토존</a>
+                <a href="#" class="dropdown-item">타워 인사이드</a>
+                <a href="#" class="dropdown-item">남산 관광명소</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="store">스토어</a>
-                <div class="dropdown-menu" aria-labelledby="store">
-                  <a href="#" class="dropdown-item">층별 안내</a>
-                  <a href="#" class="dropdown-item">서울타워플라자</a>
-                  <a href="http://www.nseoultower.co.kr/visit/restaurant.asp" class="dropdown-item">N서울타워</a>
-                  <a href="#" class="dropdown-item disabled">쿠폰</a>
-                </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="store">스토어</a>
+              <div class="dropdown-menu" aria-labelledby="store">
+                <a href="#" class="dropdown-item">층별 안내</a>
+                <a href="#" class="dropdown-item">서울타워플라자</a>
+                <a href="http://www.nseoultower.co.kr/visit/restaurant.asp" class="dropdown-item">N서울타워</a>
+                <a href="#" class="dropdown-item disabled">쿠폰</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="media">미디어 센터</a>
-                <div class="dropdown-menu" aria-labelledby="media">
-                  <a href="#" class="dropdown-item">Live 서울</a>
-                  <a href="#" class="dropdown-item disabled">뉴스센터</a>
-                  <a href="#" class="dropdown-item disabled">미디어</a>
-                  <a href="#" class="dropdown-item disabled">갤러리</a>
-                </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="media">미디어 센터</a>
+              <div class="dropdown-menu" aria-labelledby="media">
+                <a href="#" class="dropdown-item">Live 서울</a>
+                <a href="#" class="dropdown-item disabled">뉴스센터</a>
+                <a href="#" class="dropdown-item disabled">미디어</a>
+                <a href="#" class="dropdown-item disabled">갤러리</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="visit">오시는 길</a>
-                <div class="dropdown-menu" aria-labelledby="visit">
-                  <a href="#" class="dropdown-item">도보 이용 안내</a>
-                  <a href="#" class="dropdown-item">케이블카 이용 안내</a>
-                  <a href="#" class="dropdown-item">대중교통 이용 안내</a>
-                  <a href="#" class="dropdown-item">주차장 이용 안내</a>
-                </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="visit">오시는 길</a>
+              <div class="dropdown-menu" aria-labelledby="visit">
+                <a href="#" class="dropdown-item">도보 이용 안내</a>
+                <a href="#" class="dropdown-item">케이블카 이용 안내</a>
+                <a href="#" class="dropdown-item">대중교통 이용 안내</a>
+                <a href="#" class="dropdown-item">주차장 이용 안내</a>
               </div>
-            </li>
-          </ul>
-          <span class="navbar-text" style="font-size: 1.5rem;">
+            </div>
+          </li>
+        </ul>
+        <span class="navbar-text" style="font-size: 1.5rem;">
             <a href="https://www.instagram.com/namsanseoultower/"><i class="fab fa-instagram"><span class="text-hide">instagram</span></i>
-          </a>
-          <a class="ml-2" href="http://www.facebook.co/%EB%82%A8%EC%82%B0%EC%84%9C%EC%9A%B8%ED%83%80%EC%9B%8C-150084848911362"><i class="fab fa-facebook"><span class="text-hide">facebook</span></i></a>
-          </span>
-        </div>
+        </a>
+        <a class="ml-2" href="http://www.facebook.co/%EB%82%A8%EC%82%B0%EC%84%9C%EC%9A%B8%ED%83%80%EC%9B%8C-150084848911362"><i class="fab fa-facebook"><span class="text-hide">facebook</span></i></a>
+        </span>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
+  <!-- contents -->
+  <main id="content" class="container">
+    <section class="content-about row">
+      <div class="col-lg-6 p-3">
+        <article class="about-icon flcenter pt-3">
+          <img width="250" src="img/main_m01_01.png">
+          <p class="about-text mt-3">서울을 대표하는 복합문화공간 남산서울타워에서<br>잊지못할 순간들을 경험하세요!</p>
+        </article>
+      </div>
+      <div class="col-lg-6 p-3">
+        <article class="about-article pr-2">
+          <h3 class="about-title">서울의 상징, 남산서울타워</h3>
+          <hr>
+          <p> 남산서울타워는 효율적인 방송전파 송수신과 한국의 전통미를 살린 관광 전망시설의 기능을 겸비한 국내 최초의 종합전파 탑으로 방송문화와 관광산업의 미래를 위해 건립되었습니다.</p><p> 세계 유명한 종합 탑들이 그 나라 또는 그 도시의 상징적인 존재가 된 것처럼 남산서울타워 역시 지난 40여 년간 대한민국의 대표적인 관광지이자 서울의 상징물 역할을 해왔습니다.</p><p> 남산서울타워는 서울 시내 전 지역에서 바라보이는 탑의 높이와 독특한 구조, 형태 등으로 인하여 시민의 관심과 사랑의 대상이 되었고, 내외국인들이 즐겨 찾는 제1의 관광 명소로서의 위치를 확고히 하고 있습니다. 최근에는 한류 바람을 몰고 온 각종 예능, 드라마의 촬영지로 이름이 높아지면서 내외국인 관광객들이 발길이 끊이지 않는 곳입니다.</p>
+        </article>
+      </div>
+    </section>
+    <section>
+      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus perspiciatis quis, esse, adipisci quae nisi, nesciunt magnam amet ex, officiis fuga pariatur eaque corporis! Totam fugit fuga vero, aliquam aut sapiente impedit ipsum nobis, aliquid
+        eos, cupiditate quasi nam, consequuntur quibusdam laboriosam repellendus eveniet labore enim similique alias voluptatum odit. Minus totam assumenda, perferendis modi consequatur nihil voluptate at molestias quod vero quidem architecto, ullam,
+        minima id ad. Veniam nisi libero maxime nobis vero rerum praesentium, voluptatibus fuga consectetur. Minus nihil sint ea quas odit saepe, facere dolores tempora dolor explicabo facilis aliquid blanditiis dignissimos rerum beatae libero qui officiis!</div>
+      <div>Sapiente accusantium, animi atque officia dolores nisi rerum, quisquam a earum assumenda minus, laborum similique obcaecati, ducimus eaque? Qui itaque sapiente explicabo blanditiis quibusdam mollitia ex aspernatur autem recusandae doloribus consequuntur
+        nostrum, architecto, reprehenderit, expedita, eveniet. Saepe ratione hic voluptates esse doloribus consequuntur voluptas ab inventore minima veniam a, vero praesentium reiciendis mollitia! Veritatis recusandae, veniam facere animi dolore voluptatem.
+        Veritatis qui ratione facere blanditiis. Quidem aliquam ratione eius itaque quae, aliquid obcaecati, illum commodi aspernatur illo consequatur sequi, esse asperiores laborum dolor quod cumque alias repellat hic nam voluptates qui! Quisquam autem
+        rerum est itaque, corrupti ex. Nulla, necessitatibus!</div>
+      <div>Quam unde earum quos, et tempora, molestias odio architecto id similique veniam iste. Consequuntur provident dicta explicabo saepe quaerat assumenda placeat adipisci, obcaecati iure odio a repellat libero aliquid cumque, deserunt, quam harum debitis
+        nulla sit hic quidem reiciendis culpa, nam ipsam. Quod nulla est aliquid delectus veritatis repellendus, illum explicabo libero et dignissimos, iusto dolorum, facere adipisci fugiat labore. Aut suscipit impedit asperiores aliquam sit, vel, laboriosam
+        sed, amet corrupti labore illum. Necessitatibus sequi iure, sunt corporis unde, officiis accusamus nesciunt officia at ipsam hic tempora delectus impedit maiores sit omnis? Obcaecati quo expedita laborum dignissimos distinctio officia neque.</div>
+    </section>
+  </main>
 </body>
 
 </html>
