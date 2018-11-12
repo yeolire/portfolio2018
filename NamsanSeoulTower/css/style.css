@@ -3,6 +3,18 @@ body {
   background: #f8f9fa;
 }
 
+.fw-lighter {
+  font-weight: lighter;
+}
+
+.flcenter {
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .header-img {
   height: 70vh;
   background-image: url(../img/main_bg_img02.jpg);
@@ -14,26 +26,15 @@ body {
   background: #302b6d;
 }
 
-.flcenter, #content>section>div {
-  display: flex;
-  -ms-align-items: center;
-  align-items: center;
-  justify-content: center;
-}
-
 #content {
   margin-top: 1rem;
 }
 
 #content>section {
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 /* index */
-
-.about-icon {
-  flex-wrap: wrap;
-}
 
 .about-text {
   font-size: 1.2rem;
@@ -51,6 +52,20 @@ body {
   text-align: left;
 }
 
+.content-live {
+  background: #f2f1ea;
+}
+
+.live-title {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.live-title span {
+  color: #feae01;
+  font-style: italic;
+}
+
 .youtube {
   position: relative;
   width: 100%;
@@ -66,18 +81,62 @@ body {
   height: 100%;
 }
 
+.crs-rcmd {
+  background: #fff;
+}
 
+.rcmd-text{
+  text-align: center;
+}
 
+.rcmd-icon {
+  position: relative;
+  width: 120px;height: 120px;
+  margin: .5rem;
+}
 
-#footer{
+.rcmd-icon-img{
+  position: absolute;
+  width: 100%;
+}
+
+.rcmd-icon-title {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.rcmd-icon-sports{
+  top: 53%;
+}
+
+.crs-photo {
+  background: #302b6d;
+  color: #fff;
+  position: relative;
+}
+
+.crs-photo-icon{
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 0;left: 50%;
+  transform: translateX(-50%);
+}
+
+#footer {
   color: #fff;
   font-weight: lighter;
 }
 
-#footer p{
+#footer p {
   margin: 0 .5rem;
 }
 
-#footer span{
+#footer span {
   padding-right: 20px;
 }
