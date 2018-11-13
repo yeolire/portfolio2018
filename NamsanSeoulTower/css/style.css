@@ -117,15 +117,6 @@ body {
 .crs-photo {
   background: #302b6d;
   color: #fff;
-  position: relative;
-}
-
-.crs-photo-icon{
-  width: 90%;
-  height: 100%;
-  position: absolute;
-  top: 0;left: 50%;
-  transform: translateX(-50%);
 }
 
 #footer {
