@@ -10,9 +10,9 @@
 - Layout: position, flex, grid 사용  
 - Login form  
 
-### 
-### 
-### 
+<br>
+<br>
+<br>
 
 ## [보다봄 현상소](https://yeolire.github.io/portfolio2018/bodabom)
 ### 리뉴얼: 반응형 홈페이지
@@ -28,9 +28,9 @@
 - Cross browsing: Chrome, FireFox, Safari, Edge, IE
 - Hiding navigation bar on scroll, Toggle menu, Tab menu, Image gallery (Infinite scrolling & Modal box)  
 
-### 
-### 
-### 
+<br>
+<br>
+<br> 
 
 ## [남산서울타워](https://yeolire.github.io/portfolio2018/NamsanSeoulTower)
 ### 리뉴얼: 반응형 홈페이지
@@ -40,9 +40,9 @@
 - **HTML**, **CSS**  
 - **Bootstrap**  
 
-### 
-### 
-### 
+<br>
+<br>
+<br> 
 
 ## [H&M](https://yeolire.github.io/portfolio2018/hm)
 ### 리뉴얼: 데스크탑 홈페이지
@@ -50,9 +50,9 @@
 - Layout: float, position 사용  
 *도입해 보려는 것: CSS BEM 방법론, SCSS/SASS, Node.js로 단순 반복 작업 줄이기*
 
-### 
-### 
-### 
+<br>
+<br>
+<br>
 
 ## [어둠속의 대화](https://yeolire.github.io/portfolio2018/dialogueInTheDark)
 ### 리뉴얼: 단일페이지 반응형 웹사이트
@@ -63,6 +63,6 @@
 - **HTML**, **CSS**, **JavaScript**, **jQuery**  
 - Layout: flex 사용  
 
-### 
-### 
-### 
+<br>
+<br>
+<br> 
