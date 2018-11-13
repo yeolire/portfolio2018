@@ -12,7 +12,6 @@
 
 <br>
 <br>
-<br>
 
 ## [보다봄 현상소](https://yeolire.github.io/portfolio2018/bodabom)
 ### 리뉴얼: 반응형 홈페이지
@@ -30,7 +29,6 @@
 
 <br>
 <br>
-<br> 
 
 ## [남산서울타워](https://yeolire.github.io/portfolio2018/NamsanSeoulTower)
 ### 리뉴얼: 반응형 홈페이지
@@ -41,7 +39,6 @@
 - **Bootstrap**  
 
 <br>
-<br>
 <br> 
 
 ## [H&M](https://yeolire.github.io/portfolio2018/hm)
@@ -50,7 +47,6 @@
 - Layout: float, position 사용  
 *도입해 보려는 것: CSS BEM 방법론, SCSS/SASS, Node.js로 단순 반복 작업 줄이기*
 
-<br>
 <br>
 <br>
 
@@ -65,4 +61,3 @@
 
 <br>
 <br>
-<br> 
