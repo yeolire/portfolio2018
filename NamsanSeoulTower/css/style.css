@@ -34,6 +34,37 @@ body {
   margin: 2rem auto;
 }
 
+#content h3{
+  margin-top: 1.5rem;
+  color: #feae01;
+}
+
+#sub-title{
+  text-align: center;
+}
+
+#sub-title p{
+  font-weight: lighter;
+  color: #302b6d;
+}
+
+
+/* footer */
+
+#footer {
+  color: #fff;
+  font-weight: lighter;
+}
+
+#footer p {
+  margin: 0 .5rem;
+}
+
+#footer span {
+  padding-right: 20px;
+}
+
+
 /* index */
 
 .about-text {
@@ -47,8 +78,6 @@ body {
 }
 
 .about-title {
-  margin-top: 1.5rem;
-  color: #feae01;
   text-align: left;
 }
 
@@ -119,15 +148,8 @@ body {
   color: #fff;
 }
 
-#footer {
-  color: #fff;
-  font-weight: lighter;
-}
 
-#footer p {
-  margin: 0 .5rem;
-}
+/* history */
 
-#footer span {
-  padding-right: 20px;
+.history{
 }
