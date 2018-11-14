@@ -25,7 +25,7 @@
   <!-- Navigation -->
   <nav id="nav" class="navbar justify-content-between sticky-top navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img width="120"src="img/main_title_logo.png" alt="logo"></a>
+      <a class="navbar-brand" href="index.php"><img width="120"src="img/main_title_logo.png" alt="logo"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,8 +37,8 @@
             <div class="dropdown">
               <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="intro">남산서울타워 <span class="sr-only">(current)</span></a>
               <div class="dropdown-menu" aria-labelledby="intro">
-                <a href="#" class="dropdown-item">역사</a>
-                <a href="#" class="dropdown-item">브랜드 스토리</a>
+                <a href="history.php" class="dropdown-item">역사</a>
+                <a href="brand.php" class="dropdown-item">브랜드 스토리</a>
                 <a href="#" class="dropdown-item disabled">세계의 타워</a>
                 <a href="#" class="dropdown-item disabled">공지사항</a>
                 <a href="#" class="dropdown-item disabled">대관안내</a>
@@ -50,11 +50,11 @@
             <div class="dropdown">
               <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="course">남산 추천코스</a>
               <div class="dropdown-menu" aria-labelledby="course">
-                <a href="#" class="dropdown-item">추천코스</a>
-                <a href="#" class="dropdown-item">테마코스</a>
-                <a href="#" class="dropdown-item">포토존</a>
-                <a href="#" class="dropdown-item">타워 인사이드</a>
-                <a href="#" class="dropdown-item">남산 관광명소</a>
+                <a href="recommend.php" class="dropdown-item">추천코스</a>
+                <a href="theme.php" class="dropdown-item">테마코스</a>
+                <a href="photozone.php" class="dropdown-item">포토존</a>
+                <a href="inside.php" class="dropdown-item">타워 인사이드</a>
+                <a href="attraction.php" class="dropdown-item">남산 관광명소</a>
               </div>
             </div>
           </li>
@@ -62,8 +62,8 @@
             <div class="dropdown">
               <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="store">스토어</a>
               <div class="dropdown-menu" aria-labelledby="store">
-                <a href="#" class="dropdown-item">층별 안내</a>
-                <a href="#" class="dropdown-item">서울타워플라자</a>
+                <a href="store.php" class="dropdown-item">층별 안내</a>
+                <a href="plaza.php" class="dropdown-item">서울타워플라자</a>
                 <a href="http://www.nseoultower.co.kr/visit/restaurant.asp" class="dropdown-item">N서울타워</a>
                 <a href="#" class="dropdown-item disabled">쿠폰</a>
               </div>
@@ -73,7 +73,7 @@
             <div class="dropdown">
               <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="media">미디어 센터</a>
               <div class="dropdown-menu" aria-labelledby="media">
-                <a href="#" class="dropdown-item">Live 서울</a>
+                <a href="live" class="dropdown-item">Live 서울</a>
                 <a href="#" class="dropdown-item disabled">뉴스센터</a>
                 <a href="#" class="dropdown-item disabled">미디어</a>
                 <a href="#" class="dropdown-item disabled">갤러리</a>
@@ -84,10 +84,10 @@
             <div class="dropdown">
               <a class="nav-link" href="#" data-toggle="dropdown" role="button" id="visit">오시는 길</a>
               <div class="dropdown-menu" aria-labelledby="visit">
-                <a href="#" class="dropdown-item">도보 이용 안내</a>
-                <a href="#" class="dropdown-item">케이블카 이용 안내</a>
-                <a href="#" class="dropdown-item">대중교통 이용 안내</a>
-                <a href="#" class="dropdown-item">주차장 이용 안내</a>
+                <a href="visit" class="dropdown-item">도보 이용 안내</a>
+                <a href="cablecar" class="dropdown-item">케이블카 이용 안내</a>
+                <a href="transfer" class="dropdown-item">대중교통 이용 안내</a>
+                <a href="parking" class="dropdown-item">주차장 이용 안내</a>
               </div>
             </div>
           </li>
@@ -100,43 +100,3 @@
       </div>
     </div>
   </nav>
-
-  <!-- contents -->
-  <main id="sub-history" class="container-fluid p-0">
-    <hgroup id="sub-title">
-      <h2>브랜드 스토리</h2>
-      <p>남산서울타워가 알려주는 브랜드 이야기</p>
-    </hgroup>
-    <section class="container">
-      <h3>대한민국 대표 랜드마크 남산서울타워</h3>
-      <hr>
-      <p>대한민국을 대표하는 브랜드, 남산서울타워는 40년 만에 공개된 '서울타워플라자'와 2005년부터 CJ푸드빌이 임대하여 운영 중인 'N서울타워'로 구성되어 있습니다.</p>
-      <p>다양한 복합문화공간으로 끊임없이 변화하고 있는 남산서울타워를 만나보세요.</p>
-    </section>
-    <section class="container">
-      <h3>남산서울타워 총 해발 479.7m</h3>
-      <hr>
-      <p>남산 해발높이 243m와 탑신과 철탑 236.7m를 포함한 높이입니다.</p>
-    </section>
-  </main>
-
-  <!-- footer -->
-  <footer id="footer" class="bg-dark container-fluid p-3">
-    <div class="container">
-      <section class="row flcenter">
-        <div class="footer-logo col-lg-4 p-3"><img src="img/footer_logo.png" alt="남산남산타워" width="100%"></div>
-        <div class="footer-copyright col-lg-8 p-3">
-          <p>04340 서울특별시 용산구 남산공원길 105 남산서울타워</p>
-          <p><span>대표자: 정찬형</span>
-            <span>팩스: 02-756-2486</span>
-            <span>사업자등록번호: 102-81-32883</span></p>
-          <p><span>마케팅·홍보촬영 문의: jkkim0917@ytn.co.kr</span></p>
-          <p><span>COPYRIGHT© NAMSAN SEOUL TOWER, ALL RIGHTS RESERVED.</span></p>
-          <p>이 페이지는 포트폴리오용으로 작성되었습니다.</p>
-        </div>
-      </section>
-    </div>
-  </footer>
-</body>
-
-</html>
