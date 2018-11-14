@@ -1,4 +1,4 @@
-<?php include_once 'header.php'; ?>
+<? include_once ('header.php'); ?>
 
   <!-- contents -->
   <main id="content" class="container-fluid p-0">
@@ -87,4 +87,4 @@
     </section>
   </main>
 
-<?php include_once './footer.php'; ?>
+<? include_once ('footer.php'); ?>

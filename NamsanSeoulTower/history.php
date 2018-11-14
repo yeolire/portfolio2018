@@ -1,4 +1,4 @@
-<?php include_once 'header.php'; ?>
+<? include_once 'header.php'; ?>
 
 <!-- contents -->
 <main id="content" class="history container p-0">
@@ -12,4 +12,4 @@
   </section>
 </main>
 
-<?php include_once './footer.php'; ?>
+<? include_once './footer.php'; ?>
