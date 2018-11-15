@@ -3,7 +3,7 @@ tabMenu();
 function tabMenu() {
   const btns = Array.from(document.querySelectorAll('.sub-tab'));
   const contents = document.querySelectorAll('.tab-content');
-  btns.forEach(function(btn) {
+  Array.prototype.forEach.call(btns, function(btn) {
     btn.addEventListener('click', openTab);
   });
 

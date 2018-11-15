@@ -15,11 +15,13 @@ body {
 }
 
 /* header end */
-/* main start */
+
+
+
+/* depth2 tab start */
 #main{
   margin-bottom: 100px;
 }
-/* depth2 tab start */
 .sub-header {
   margin-bottom: 100px;
 }
@@ -69,7 +71,6 @@ body {
 
 .tab-content{
   display: none;
-  width: 1000px;
   margin: 0 auto;
 }
 
@@ -80,8 +81,12 @@ body {
 .tab-img{
   width: 100%;
 }
+
+#contents-class .tab-content{
+  width: 1000px;
+}
+
 /* contents end */
-/* main end */
 
 
 /* footer start */
