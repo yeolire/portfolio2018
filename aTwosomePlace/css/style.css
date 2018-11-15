@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700');
+
+body {
+  background: #ebebeb;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* header start */
+#header {
+  margin: 0 auto;
+  width: 1200px;
+  height: 150px;
+  background: #3C3E3B;
+  color: #ebebeb;
+}
+
+/* header end */
+/* main start */
+#main{
+  margin-bottom: 100px;
+}
+/* depth2 tab start */
+.sub-header {
+  margin-bottom: 100px;
+}
+
+.sub-title-img {
+  width: 100%;
+  height: 200px;
+  background: url(../img/class-title.png) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.sub-title {
+  text-align: center;
+  margin: 50px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.sub-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-tab {
+  width: 240px;
+  height: 50px;
+  margin: 0;
+  border: 1px solid #B30317;
+  background: #ebebeb;
+  color: #B30317;
+}
+
+.sub-tab.active {
+  border: none;
+  background: #B30317;
+  color: #ebebeb;
+}
+
+/* depth2 tab end */
+
+/* contents start */
+.contents-wrap{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.tab-content{
+  display: none;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tab-content.active{
+  display: block;
+}
+
+.tab-img{
+  width: 100%;
+}
+/* contents end */
+/* main end */
+
+
+/* footer start */
+#footer{
+  padding: 1rem;
+  background: #3C3E3B;
+  color: #ebebeb;
+}
+/* footer end */
