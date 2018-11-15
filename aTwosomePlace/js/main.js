@@ -1,7 +1,7 @@
 tabMenu();
 
 function tabMenu() {
-  const btns = Array.from(document.querySelectorAll('.sub-tab'));
+  const btns = document.querySelectorAll('.sub-tab');
   const contents = document.querySelectorAll('.tab-content');
   Array.prototype.forEach.call(btns, function(btn) {
     btn.addEventListener('click', openTab);
@@ -13,7 +13,7 @@ function tabMenu() {
       contents[i].classList.remove('active');
     }
     this.classList.add('active');
-    let i = btns.indexOf(this);
+    let i = Array.prototype.indexOf.call(btns, this);
     contents[i].classList.add('active');
   }
 }
