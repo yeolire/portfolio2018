@@ -23,22 +23,26 @@ function scrollPage() {
 
   function move() {
     var links = document.querySelectorAll('#menu a');
-    var sections=document.querySelectorAll('section');
+    var sections = document.querySelectorAll('section');
     var current = window.pageYOffset;
     var height = sections[0].clientHeight;
     window.addEventListener('resize', function() {
       height = sections[0].clientHeight;
     });
 
-    window.addEventListener('wheel',function(e){
-      var i=Math.floor(current/height);
-      if(e.deltaY<0){
-        sections[i-1].scrollIntoView({behavior: 'smooth'});
+    window.addEventListener('wheel', function(e) {
+      var i = Math.floor(current / height);
+      if (e.deltaY < 0) {
+        sections[i - 1].scrollIntoView({
+          behavior: 'smooth'
+        });
         console.log('down');
-      }else if(e.deltaY>0){
-        sections[i+1].scrollIntoView({behavior: 'smooth'});
+      } else if (e.deltaY > 0) {
+        sections[i + 1].scrollIntoView({
+          behavior: 'smooth'
+        });
       }
-      })
+    })
 
     if (current <= height) {
       removeAllClass(links, 'on');
@@ -61,13 +65,13 @@ function scrollPage() {
     } else if (current <= height * 7) {
       removeAllClass(links, 'on');
       links[6].classList.add('on');
-    } else{
+    } else {
       removeAllClass(links, 'on');
       links[7].classList.add('on');
     }
 
     function removeAllClass(arr, classname) {
-      for (var i=0, item; item = arr[i]; i++) {
+      for (var i = 0, item; item = arr[i]; i++) {
         arr[i].classList.remove(classname);
       }
     }
