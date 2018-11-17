@@ -33,7 +33,7 @@ function scrollPage() {
     window.addEventListener('wheel', function(e) {
       var i = Math.floor(current / height);
       if (e.deltaY < 0) {
-        sections[i - 1].scrollIntoView({
+        sections[i].scrollIntoView({
           behavior: 'smooth'
         });
         console.log('down');
