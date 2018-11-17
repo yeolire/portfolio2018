@@ -32,10 +32,10 @@ function scrollPage() {
 
     window.addEventListener('wheel',function(e){
       var i=Math.floor(current/height);
-      if(e.deltaY>0){
+      if(e.deltaY<0){
         sections[i-1].scrollIntoView({behavior: 'smooth'});
         console.log('down');
-      }else if(e.deltaY<0){
+      }else if(e.deltaY>0){
         sections[i+1].scrollIntoView({behavior: 'smooth'});
       }
       })
