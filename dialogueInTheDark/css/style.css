@@ -70,6 +70,7 @@ section {
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
+  transition: .5s;
 }
 
 section h2 {
