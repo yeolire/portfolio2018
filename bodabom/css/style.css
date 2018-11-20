@@ -1,5 +1,5 @@
 /* Header */
-header{height: 60px;width: 100%;display: flex;justify-content: space-between;-ms-align-items: flex-start;align-items: flex-start;padding: 6vmin;position: fixed;top: 0;transition: 1s;z-index: 1;}
+header{height: 60px;width: 100%;display: flex;justify-content: space-between;-ms-align-items: flex-start;align-items: flex-start;padding: 6vmin;position: fixed;top: 0;transition: background 1s;z-index: 1;}
 header hgroup a{display: flex;}
 header hgroup h1 span{color: #C4FF00;}
 header hgroup img{width: 40px;height: 20px;margin-bottom: 5px;align-self: flex-end;}
