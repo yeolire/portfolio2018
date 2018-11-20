@@ -102,7 +102,7 @@ function init() {
   winning = 100;
   gamePlaying = true;
   second = false;
-  dice = document.querySelector('.dice');
+  dice = document.querySelector('.dice1');
   secondDice = document.querySelector('.dice2');
 
   dice.style.display = 'none';

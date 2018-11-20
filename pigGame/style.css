@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background: linear-gradient(rgba(255, 237, 0, 0.4), rgba(31, 255, 221, 0.4));
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -66,7 +66,7 @@ body {
     text-align: center;
     font-size: 80px;
     font-weight: 100;
-    color: #EB4D4D;
+    color: dodgerblue;
     margin-bottom: 130px;
 }
 
@@ -77,14 +77,14 @@ body {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    color: dodgerblue;
     top: -7px;
     right: 10px;
 
 }
 
 .player-current-box {
-    background-color: #EB4D4D;
+    background-color: dodgerblue;
     color: #fff;
     width: 40%;
     margin: 0 auto;
@@ -127,7 +127,7 @@ button:focus {
 }
 
 i {
-    color: #EB4D4D;
+    color: dodgerblue;
     display: inline-block;
     margin-right: 15px;
     font-size: 32px;
@@ -140,25 +140,44 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
-.btn-second {top: 100px;}
 
-.dice {
+
+.dice{
     position: absolute;
     left: 50%;
-    top: 178px;
-    transform: translateX(-50%);
+    top: 35%;
+    transform: translate(-50%, -30%);
+    /* display: flex; */
+}
+.dice1, .dice2 {
     height: 100px;
+    margin: 10px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
-.dice2{
-    position: absolute;
-    left: 50%;
-    top: 285px;
-    transform: translateX(-50%);
-    height: 100px;
-    box-shadow: 0px 10px 60px rgba(235, 77, 77, 0.30);
+.winner { background-color: #f7f7f7; }
+.winner .player-name { font-weight: 300; color: dodgerblue; }
+
+
+.side-btn{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 15px;right: 15px;
+  text-align: right;
 }
 
-.winner { background-color: #f7f7f7; }
-.winner .player-name { font-weight: 300; color: #EB4D4D; }
+.side-btn button{
+  width: 35px;height: 35px;
+  position: relative;
+}
+
+.side-btn i{
+  color: #34a6f9;
+  font-size: 24px;
+  transition: .5s;
+}
+
+.side-btn i:hover{
+  transform: scale(1.15);
+}
