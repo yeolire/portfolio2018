@@ -1,3 +1,6 @@
+/* ------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------ */
 body {
   word-break: keep-all;
   background: #f8f9fa;
@@ -15,14 +18,23 @@ body {
   flex-wrap: wrap;
 }
 
+/* ------- ABOUT ------- */
+/* Yellow #feae01 */
+/* Purple #302b6d */
+
+
+
+/* ------------------------------------ */
+/* HEADER */
+/* ------------------------------------ */
 .header-img {
-  height: 70vh;
+  height: calc(100vh - 60px);
   background-image: url(../img/main_bg_img02.jpg);
   background-size: cover;
   color: #fff;
 }
-
 #nav {
+  height: 60px;
   background: #302b6d;
 }
 
@@ -34,7 +46,7 @@ body {
   margin: 2rem auto;
 }
 
-#content h3{
+h3{
   margin-top: 1.5rem;
   color: #feae01;
 }
@@ -49,7 +61,9 @@ body {
 }
 
 
-/* footer */
+/* ------------------------------------ */
+/* FOOTER */
+/* ------------------------------------ */
 
 #footer {
   color: #fff;
@@ -65,8 +79,11 @@ body {
 }
 
 
-/* index */
+/* ------------------------------------ */
+/* INDEX */
+/* ------------------------------------ */
 
+/* ------- ABOUT ------- */
 .about-text {
   font-size: 1.2rem;
   text-align: center;
@@ -85,6 +102,7 @@ body {
   background: #f2f1ea;
 }
 
+/* ------- LIVE SEOUL ------- */
 .live-title {
   padding-top: 1.5rem;
   font-size: 2rem;
@@ -110,6 +128,7 @@ body {
   height: 100%;
 }
 
+/* ------- COURSE ------- */
 .crs-rcmd {
   background: #fff;
 }
@@ -122,6 +141,12 @@ body {
   position: relative;
   width: 120px;height: 120px;
   margin: .5rem;
+  transition: transform .3s
+}
+
+.rcmd-icon:hover{
+  display: block;
+  transform: scale(1.1);
 }
 
 .rcmd-icon-img{
@@ -145,11 +170,20 @@ body {
 
 .crs-photo {
   background: #302b6d;
+  transition: background .3s;
+}
+
+.crs-photo:hover{
+  background: linear-gradient(rgba(48, 43, 108,.9), rgb(46, 42, 89));
+}
+
+.crs-photo h3{
   color: #fff;
 }
 
 
-/* history */
-
+/* ------------------------------------ */
+/* HISTORY */
+/* ------------------------------------ */
 .history{
 }
