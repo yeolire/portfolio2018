@@ -1,5 +1,22 @@
+sound()
 shirinkNav();
 scrollPage();
+
+function sound(){
+  var audio=document.getElementById('audio');
+  var play=document.querySelector('.btn-play');
+  var pause=document.querySelector('.btn-pause');
+  play.addEventListener('click',function(){
+    audio.play();
+    play.classList.remove('on');
+    pause.classList.add('on');
+  });
+  pause.addEventListener('click',function(){
+    audio.pause();
+    pause.classList.remove('on');
+    play.classList.add('on');
+  });
+}
 
 function shirinkNav() {
   var logo = document.querySelectorAll('header img');
