@@ -22,7 +22,7 @@
 - Hiding navigation bar on scroll, Toggle menu, Tab menu, Image gallery (Infinite scrolling & Modal box)  
 
 
-## [투썸플레이스](https://woonhee.dothome.co.kr)
+## [투썸플레이스](https://teamtwosome.dothome.co.kr)
 ### 리뉴얼: 데스크탑 홈페이지
 - **HTML**, **CSS**, **JavaScript**, **PHP**  
 - **Gnuboard**  
