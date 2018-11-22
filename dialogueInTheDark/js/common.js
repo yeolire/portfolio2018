@@ -19,12 +19,13 @@ function shirinkNav() {
 }
 
 function scrollPage() {
+  var links=document.querySelectorAll('#menu>a');
   window.addEventListener('scroll', move);
 
   function move() {
     var links = document.querySelectorAll('#menu a');
     var sections = document.querySelectorAll('section');
-    var current = window.pageYOffset;
+    var current = window.pageYOffset+1;
     var height = sections[0].clientHeight;
     window.addEventListener('resize', function() {
       height = sections[0].clientHeight;
@@ -38,7 +39,6 @@ function scrollPage() {
           sections[i].scrollIntoView({
             behavior: 'smooth'
           });
-          console.log('down');
         } else if (e.deltaY > 0) {
           sections[i + 1].scrollIntoView({
             behavior: 'smooth'
@@ -47,36 +47,35 @@ function scrollPage() {
       });
     }
 
-    if (current <= height) {
+    if (current < height) {
       removeAllClass(links, 'on');
       links[0].classList.add('on');
-    } else if (current <= height * 2) {
+    } else if (current < height * 2) {
       removeAllClass(links, 'on');
       links[1].classList.add('on');
-    } else if (current <= height * 3) {
+    } else if (current < height * 3) {
       removeAllClass(links, 'on');
       links[2].classList.add('on');
-    } else if (current <= height * 4) {
+    } else if (current < height * 4) {
       removeAllClass(links, 'on');
       links[3].classList.add('on');
-    } else if (current <= height * 5) {
+    } else if (current < height * 5) {
       removeAllClass(links, 'on');
       links[4].classList.add('on');
-    } else if (current <= height * 6) {
+    } else if (current < height * 6) {
       removeAllClass(links, 'on');
       links[5].classList.add('on');
-    } else if (current <= height * 7) {
+    } else if (current < height * 7) {
       removeAllClass(links, 'on');
       links[6].classList.add('on');
     } else {
       removeAllClass(links, 'on');
       links[7].classList.add('on');
     }
-
-    function removeAllClass(arr, classname) {
-      for (var i = 0, item; item = arr[i]; i++) {
-        arr[i].classList.remove(classname);
-      }
+  }
+  function removeAllClass(arr, classname) {
+    for (var i = 0, item; item = arr[i]; i++) {
+      arr[i].classList.remove(classname);
     }
   }
 }
