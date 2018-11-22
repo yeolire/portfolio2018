@@ -83,7 +83,7 @@ h3{
 /* INDEX */
 /* ------------------------------------ */
 
-/* ------- ABOUT ------- */
+/* ------------ ABOUT ------------ */
 .about-text {
   font-size: 1.2rem;
   text-align: center;
@@ -102,7 +102,7 @@ h3{
   background: #f2f1ea;
 }
 
-/* ------- LIVE SEOUL ------- */
+/* ------------ LIVE SEOUL ------------ */
 .live-title {
   padding-top: 1.5rem;
   font-size: 2rem;
@@ -128,7 +128,7 @@ h3{
   height: 100%;
 }
 
-/* ------- COURSE ------- */
+/* ------------ COURSE ------------ */
 .crs-rcmd {
   background: #fff;
 }

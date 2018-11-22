@@ -45,7 +45,6 @@
 ### 리뉴얼: 데스크탑 홈페이지
 - **HTML**, **CSS**, **JavaScript**  
 - Layout: float, position 사용  
-*도입해 보려는 것: CSS BEM 방법론, SCSS/SASS, Node.js로 단순 반복 작업 줄이기*
 
 <br>
 <br>
