@@ -27,10 +27,11 @@ body {
 /* ------------------------------------ */
 /* HEADER */
 /* ------------------------------------ */
-.header-img {
+.hero-img {
   height: calc(100vh - 60px);
   background-image: url(../img/main_bg_img02.jpg);
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
 }
 #nav {
