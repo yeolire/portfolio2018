@@ -11,6 +11,7 @@ button{cursor: pointer;font-size: 1rem;border: none;background: none;}
   p, li{font-size: 3.333vw;word-break: keep-all;}
 }
 input{border: none;}
+::-webkit-scrollbar{width: 0;background: transparent;}
 .sound_only{text-indent: -9999px;line-height: 0;font-size: 0;}
 .cover{width: 100%;height: 100%;background: rgba(0,0,0,.5);}
 .align-center{text-align: center;}
