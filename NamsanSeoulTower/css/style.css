@@ -188,6 +188,10 @@ h3{
   .carousel-indicators{
     display: none;
   }
+  .content-event img{
+    width: 140% !important;
+    margin-left: -20%;
+  }
 }
 
 /* ------------------------------------ */
