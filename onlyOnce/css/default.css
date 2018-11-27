@@ -1,18 +1,23 @@
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|East+Sea+Dokdo|Kumar+One+Outline|Sunflower:300');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Kumar+One+Outline|Sunflower');
 
-html, body{
-  font-family:  'Sunflower', 'Kumar One Outline', cursive;
+html, body {
+  font-family: 'Chakra Petch', sans-serif;
   text-rendering: optimizeLegibility;
   line-height: 145%;
   word-break: keep-all;
   overflow-x: hidden;
+  color: #434B3B;
 }
 
-@media screen and (max-width:600px) {
-  html, body{
+body {
+  background: linear-gradient(#7AD024, #3ADB91, #2EDDA4, #25DEB4);
+}
+
+@media screen and (max-width:1024px) {
+  html, body {
     font-size: 3.5vw;
   }
 }
@@ -21,6 +26,15 @@ html, body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Kumar One Outline', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: 'Chakra Petch', 'Sunflower', sans-serif;
+  text-transform: capitalize;
 }
 
 ul, ol {
@@ -43,9 +57,13 @@ img, a {
   vertical-align: top;
 }
 
+img {
+  width: 100%
+}
+
 button {
-  cursor: pointer;
-  font-size: 1rem;
+  border: none;
+  background: none;
 }
 
 .sound_only {
@@ -55,5 +73,194 @@ button {
 }
 
 /* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+.btn {
+  width: 12rem;
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  color: #3dab92;
+  background: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.btn-ghost {
+  color: #fff;
+  background: transparent;
+  transition: .3s;
+}
+
+.btn-ghost:hover {
+  background: #fff;
+  color: #3dab92;
+}
+
+.content__card {
+  border-radius: 5px;
+}
+
+/* ----------------------------------------------- */
 /* LAYOUT */
 /* ----------------------------------------------- */
+.header, .subheader, .main, .footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* ------------- HEADER ----------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4rem;
+  color: #fff;
+}
+
+.header.sticky {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  color: #434B3B;
+  background: #fff;
+}
+
+.logo {
+  flex: 3 0;
+  padding-top: .5rem;
+}
+
+.toggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  color: #fff;
+  display: none;
+}
+
+.toggle:first-of-type {
+  font-size: 1.7rem;
+}
+
+.toggle:last-of-type {
+  font-size: 2rem;
+}
+
+.nav {
+  flex: 4 1;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link.on {
+  font-weight: bold;
+}
+
+@media screen and (max-width:1024px) {
+  .toggle.on {
+    display: block;
+    z-index: 10;
+  }
+
+  .nav__links {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100vh;
+    background: #25DEB4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  }
+
+  .nav__link {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+  }
+}
+
+/* ------------- SUB HEADER ----------- */
+.subheader {
+  margin-top: 4rem;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.sub__title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+}
+
+/* ------------- MAIN ----------- */
+.main {
+  background: #fff;
+  width: calc(100% - 2rem);
+}
+
+.section {
+  width: 100%;
+  padding: 2rem .5rem;
+}
+
+.section__heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.section__heading::after {
+  content: "";
+  display: block;
+  margin: 1rem auto;
+  width: 30px;
+  border-bottom: 3px solid #3dab92;
+}
+
+.section__container {
+  display: flex;
+}
+
+.content__container {
+  padding-left: 2%;
+}
+
+.content__container:first-child {
+  padding-left: 0;
+}
+
+.content__title {
+  margin: .5rem 0;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width:1024px) {
+  .section__container {
+    flex-direction: column;
+  }
+
+  .content__container {
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ------------- HEADER ----------- */
+.footer {
+  color: #fff;
+  padding: 3rem 1rem;
+}
