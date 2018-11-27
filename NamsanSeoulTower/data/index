@@ -55,7 +55,7 @@
   </article>
 </section>
 
-<section class="contenr-event container-fluid p-0">
+<section class="content-event container-fluid p-0">
   <div id="event" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#event" data-slide-to="0" class="active"></li>

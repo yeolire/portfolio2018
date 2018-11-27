@@ -35,7 +35,7 @@ body {
   color: #fff;
 }
 #nav {
-  height: 60px;
+  min-height: 60px;
   background: #302b6d;
 }
 
@@ -93,6 +93,7 @@ h3{
 
 .about-article {
   text-align: justify;
+  word-break: break-all;
 }
 
 .about-title {
@@ -182,6 +183,12 @@ h3{
   color: #fff;
 }
 
+/* ------------ EVENT ------------ */
+@media screen and (max-width: 900px){
+  .carousel-indicators{
+    display: none;
+  }
+}
 
 /* ------------------------------------ */
 /* HISTORY */
