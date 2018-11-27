@@ -171,6 +171,10 @@ button {
 
   .nav__links {
     display: none;
+  }
+
+  .nav__links.on{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -261,6 +265,10 @@ button {
 
 /* ------------- HEADER ----------- */
 .footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   color: #fff;
-  padding: 3rem 1rem;
+  text-align: center;
 }
