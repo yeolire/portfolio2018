@@ -9,7 +9,7 @@ const toggle = (function() {
         btns[i].classList.toggle('on');
       }
       links.classList.toggle('on');
-    })
+    });
   });
 
 
@@ -17,7 +17,11 @@ const toggle = (function() {
 
 
 const stickyNav = (function() {
-
-
-
+  window.addEventListener('scroll', function(){
+    const header=document.querySelector('.header');
+    header.classList.add('sticky');
+    if(window.pageYOffset<10){
+      header.classList.remove('sticky');
+    }
+  });
 })();
