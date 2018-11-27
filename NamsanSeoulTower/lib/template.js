@@ -27,7 +27,7 @@ module.exports={
       <!-- Navigation -->
       <nav id="nav" class="navbar justify-content-between sticky-top navbar-expand-lg navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="/?id=index"><img width="120" src="img/main_title_logo.png" alt="logo"></a>
+          <a class="navbar-brand" href="/"><img width="120" src="img/main_title_logo.png" alt="logo"></a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
