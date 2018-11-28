@@ -14,7 +14,7 @@ var fetchPage = function(name) {
       title = items[0].trim();
       contents = items[1];
 
-      document.querySelector(dom.subtitle).innerHTML = title;
+      document.querySelector(dom.subtitle).textContent = title;
       document.querySelector(dom.main).innerHTML = contents;
     });
   });
