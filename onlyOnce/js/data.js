@@ -27,7 +27,7 @@ fetch('menu').then(function(response) {
     var tags = '';
     items.forEach(function(item, i) {
       item = item.trim();
-      var tag = `<li><a class="nav__link" href="#${item}" onclick="fetchPage('${item}', '${dom.main}')">${item}</a></li>`;
+      var tag = `<li><a class="nav__link" href="#${item}" onclick="fetchPage('${item}')">${item}</a></li>`;
       tags += tag;
     });
     document.querySelector(dom.nav).innerHTML = tags;
