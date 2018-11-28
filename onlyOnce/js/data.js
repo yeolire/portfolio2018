@@ -20,11 +20,6 @@ var fetchPage = function(name) {
   });
 }
 
-if (location.hash) {
-  fetchPage(location.hash.substr(2));
-} else {
-  fetchPage('home');
-}
 
 fetch('menu').then(function(response) {
   response.text().then(function(text) {
@@ -38,3 +33,10 @@ fetch('menu').then(function(response) {
     document.querySelector(dom.nav).innerHTML = tags;
   });
 });
+
+
+if (location.hash) {
+  fetchPage(location.hash.substr(2));
+} else {
+  fetchPage('home');
+}

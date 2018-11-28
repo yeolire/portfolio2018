@@ -59,7 +59,7 @@ img, a {
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 button {
@@ -250,10 +250,15 @@ button {
 
 .content__container {
   padding-left: 2%;
+  flex: 1;
 }
 
 .content__container:first-child {
   padding-left: 0;
+}
+
+.content__img{
+  overflow: hidden;
 }
 
 .content__title {
