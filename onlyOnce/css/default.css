@@ -164,6 +164,7 @@ button {
 .nav__links {
   display: flex;
   justify-content: space-between;
+  text-transform: uppercase;
 }
 
 .nav__link.on {

@@ -5,24 +5,30 @@ var dom = {
   main: '.main'
 }
 
-var fetchPage= function (name, domstr) {
+var fetchPage = function(name) {
   fetch(name).then(function(response) {
     response.text().then(function(text) {
-      document.querySelector(domstr).innerHTML = text;
+      var items, title, contents;
+
+      items = text.split('%%%');
+      title = items[0].trim();
+      contents = items[1];
+
+      document.querySelector(dom.subtitle).innerHTML = title;
+      document.querySelector(dom.main).innerHTML = contents;
     });
   });
 }
 
 if (location.hash) {
-  fetchPage(location.hash.substr(2), dom.main);
+  fetchPage(location.hash.substr(2));
 } else {
-  fetchPage('index', dom.main);
+  fetchPage('home');
 }
 
 fetch('menu').then(function(response) {
   response.text().then(function(text) {
     var items = text.split(',');
-
     var tags = '';
     items.forEach(function(item, i) {
       item = item.trim();
