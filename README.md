@@ -13,7 +13,7 @@
 - Login form  
 
 
-## [O.O.](https://yeolire.github.io/portfolio2018/onlyOnce)
+## [O.O.](https://yeolire.github.io/portfolio2018/OO)
 ### 단일페이지 반응형 웹사이트
 - **HTML**, **CSS**, **JavaScript(ES6)**  
 - **Ajax**
