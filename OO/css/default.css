@@ -17,7 +17,7 @@ body {
   background: linear-gradient(#7AD024, #3ADB91, #2EDDA4, #25DEB4);
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:700px) {
   html, body {
     font-size: 3.5vw;
   }
@@ -137,7 +137,6 @@ button {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 1rem;
 }
 
 /* ------------- HEADER ----------- */
@@ -152,6 +151,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .header.sticky {
@@ -253,12 +253,16 @@ button {
 .main {
   background: #fff;
   width: calc(100% - 2rem);
-  box-shadow: 0 0 10px rgba(0,0,0,.1)
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 .section {
   width: 100%;
-  padding: 2rem .5rem;
+  padding: 2rem 1.5rem;
+}
+
+.section:nth-child(2n){
+  background: #fffff6;
 }
 
 .section__heading {
@@ -280,6 +284,7 @@ button {
 }
 
 .content__container {
+  padding-top: 1.5rem;padding-bottom: 1.5rem;
   padding-left: 2%;
   flex: 1;
 }
@@ -297,14 +302,13 @@ button {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:767px) {
   .section__container {
     flex-direction: column;
   }
 
   .content__container {
     padding-left: 0;
-    margin-bottom: 1.5rem;
   }
 }
 
