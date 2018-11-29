@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(#7AD024, #3ADB91, #2EDDA4, #25DEB4);
+  background: linear-gradient(#7AD024 0%, #25DEB4 30vh, #25DEB4 95%, #7AD024 100%);
 }
 
 @media screen and (max-width:700px) {

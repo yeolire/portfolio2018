@@ -1,1 +1,13 @@
 all about O.O. %%%
+<main class="main main-home">
+  <section class="section section-features">
+    <h3 class="section__heading">title</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <div class="content__img img-open"><img src="img/first01.jpeg" alt="open"></div>
+        <h4 class="content__title">O.O.에서 한 번에 쇼핑하자!</h4>
+        <p class="content__text">투명하되 품에 황금시대의 보는 얼마나 쓸쓸한 예수는 것이다. 생명을 무엇을 이상은 그들에게 바로 사라지지 이상이 힘있다. 우리 놀이 듣기만 무한한 만물은 밥을 것은 말이다. 반짝이는 별과 커다란 발휘하기 길을 거친 이상 황금시대다.</p>
+      </article>
+    </div>
+  </section>
+</main>
