@@ -1,24 +1,76 @@
 shop at only once %%%
-<section class="section">
-  <h3 class="section__heading">title</h3>
-  <div class="section__container">
-    <article class="content__container">
-      <div class="content__img"><img src="img/first1.jpeg" alt="open"></div>
-      <h4 class="content__title">O.O.에서 한 번에 쇼핑하자!</h4>
-      <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, necessitatibus sint! Autem rem libero maiores porro similique iusto accusantium quos? Quisquam asperiores optio vel ipsam dolore
-        consectetur, corrupti molestias.</p>
-    </article>
-  </div>
-</section>
+<main class="main">
+  <section class="section section-home-features">
+    <h3 class="section__heading">title</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <div class="content__img"><img src="img/first01.jpeg" alt="open"></div>
+        <h4 class="content__title">O.O.에서 한 번에 쇼핑하자!</h4>
+        <p class="content__text">투명하되 품에 황금시대의 보는 얼마나 쓸쓸한 예수는 것이다. 생명을 무엇을 이상은 그들에게 바로 사라지지 이상이 힘있다. 우리 놀이 듣기만 무한한 만물은 밥을 것은 말이다. 반짝이는 별과 커다란 발휘하기 길을 거친 이상 황금시대다.</p>
+      </article>
+    </div>
+  </section>
 
-<section class="section">
-  <h3 class="section__heading">title</h3>
-  <div class="section__container">
-    <article class="content__container">
-      <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
-      <h4 class="content__title">title</h4>
-      <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, necessitatibus sint! Autem rem libero maiores porro similique iusto accusantium quos? Quisquam asperiores optio vel ipsam dolore
-        consectetur, corrupti molestias.</p>
-    </article>
-  </div>
-</section>
+  <section class="section section-home-social">
+    <h3 class="section__heading">title</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">instagram 바로가기</h4>
+      </article>
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">facebook 바로가기</h4>
+      </article>
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">youtube 바로가기</h4>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-home-product">
+    <h3 class="section__heading">title</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">Health</h4>
+        <p class="content__text">것은 청춘 심장은 풀이 구하지 속잎나고, 이상이 있다. 인간의 쓸쓸한 얼음이 목숨을 동력은 교향악이다. 스며들어 속에서 구할 있으랴? 얼마나 가는 몸이 것이다. 열락의 있는 끓는 피다. 품었기 소금이라 옷을 이것이다.</p>
+      </article>
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">Life</h4>
+        <p class="content__text">밥을 뜨고, 미묘한 사막이다. 만천하의 끓는 무엇을 긴지라 열락의 열매를 있다. 청춘에서만 인생에 주는 인생을 같은 동산에는 관현악이며, 것이다. 사랑의 얼마나 같이, 심장의 평화스러운 따뜻한 착목한는 그리하였는가? 동산에는 가슴이 이상, 우리 것이다. 찬미를 내려온 두기 뜨고, 얼마나 말이다.</p>
+      </article>
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">Beauty</h4>
+        <p class="content__text">위하여 무한한 고행을 옷을 따뜻한 발휘하기 무엇을 굳세게 이것이다. 구하기 실로 황금시대의 품었기 너의 약동하다. 위하여 두기 지혜는 찾아다녀도, 착목한는 생명을 있는가? 유소년에게서 충분히 트고, 그들은 같으며, 우는 굳세게 인류의 영락과 것이다. 영원히 이 이는 기쁘며, 미묘한 그들에게 맺어, 사막이다.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-home-event">
+    <h3 class="section__heading">title</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">title</h4>
+        <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, necessitatibus sint! Autem rem libero maiores porro similique iusto accusantium quos? Quisquam asperiores optio vel ipsam dolore
+          consectetur, corrupti molestias.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-home-social">
+    <h3 class="section__heading">title</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <div class="content__img"><img src="img/health3.jpeg" alt="health"></div>
+        <h4 class="content__title">title</h4>
+        <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, necessitatibus sint! Autem rem libero maiores porro similique iusto accusantium quos? Quisquam asperiores optio vel ipsam dolore
+          consectetur, corrupti molestias.</p>
+      </article>
+    </div>
+  </section>
+</main>

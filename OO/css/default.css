@@ -253,6 +253,7 @@ button {
 .main {
   background: #fff;
   width: calc(100% - 2rem);
+  box-shadow: 0 0 10px rgba(0,0,0,.1)
 }
 
 .section {
