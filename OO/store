@@ -1,40 +1,50 @@
 let's go to O.O. %%%
-  <section class="section section__store">
-    <h3 class="section__heading">상품소개</h3>
-    <div class="section__container">
-      <article class="content__container">
-        <h4 class="content__title">Health</h4>
-      </article>
-      <article class="content__container">
-        <h4 class="content__title">Life</h4>
-      </article>
-      <article class="content__container">
-        <h4 class="content__title">Beauty</h4>
-      </article>
-    </div>
-  </section>
+<section class="section section__product">
+  <h3 class="section__heading">상품소개</h3>
+  <div class="section__container">
+    <article class="content__container">
+      <h4 class="content__title product--01">Health</h4>
+    </article>
+    <article class="content__container">
+      <h4 class="content__title product--02">Life</h4>
+    </article>
+    <article class="content__container">
+      <h4 class="content__title product--03">Beauty</h4>
+    </article>
+  </div>
+</section>
 
-  <section class="section section__store">
-    <h3 class="section__heading">매장소개</h3>
-    <div class="section__container">
-      <article class="content__container">
-        <div class="content__img img-open"><img src="img/store.jpeg" alt="store"></div>
-      </article>
-      <article class="content__container">
-        <h4 class="content__title">여는 시간</h4>
-        <p class="content__text store--text">오전 10시</p>
-        <h4 class="content__title">닫는 시간</h4>
-        <p class="content__text store--text">오후 10시</p>
-      </article>
-    </div>
-  </section>
+<section class="section section__store">
+  <h3 class="section__heading">매장소개</h3>
+  <div class="section__container">
+    <article class="content__container store--img">
+      <div class="content__img"><img src="img/store.jpeg" alt="store"></div>
+    </article>
+    <article class="content__container store--text">
+      <h4 class="content__title">여는 시간</h4>
+      <p class="content__text store--text">오전 10시</p>
+      <h4 class="content__title">닫는 시간</h4>
+      <p class="content__text store--text">오후 10시</p>
+    </article>
+  </div>
+</section>
 
-  <section class="section section__store">
-    <h3 class="section__heading">매장찾기</h3>
-    <div class="section__container">
-      <article class="content__container">
-        <input type="text" placeholder="매장명 입력">
-        <div class="content__img"><img src="img/map.jpeg" alt="map"></div>
-      </article>
-    </div>
-  </section>
+<section class="section section__location">
+  <h3 class="section__heading">매장찾기</h3>
+  <div class="section__container">
+    <article class="content__container">
+      <form method="post" action="#" class="form">
+        <div class="form--field">
+          <div class="form--label location--label">
+            <label for="name">매장명</label>
+          </div>
+          <div class="form--input">
+            <input type="text" name="name" id="name" placeholder="매장 이름을 입력해주세요" required>
+          </div>
+          <button type="submit" class="location--submit"><i class="ion-ios-search-strong"></i></button>
+        </div>
+      </form>
+      <div class="content__img location--img"><img src="img/map.png" alt="map"></div>
+    </article>
+  </div>
+</section>

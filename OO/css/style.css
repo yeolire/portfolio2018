@@ -17,6 +17,12 @@
   text-align: center;
 }
 
+.features--img{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
 /* ----------------------------------------------- */
 /* SOCIAL */
 /* ----------------------------------------------- */
@@ -164,7 +170,7 @@
 /* ----------------------------------------------- */
 /* FORM */
 /* ----------------------------------------------- */
-.contact--field{
+.form--field{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -172,13 +178,13 @@
   margin: 1rem auto;
 }
 
-.contact--label{
+.form--label{
   width: 30%;
   margin-right: 3rem;
   text-align: right;
 }
-.contact--input{
-  width: 70%;
+.form--input{
+  flex: 1;
 }
 
 input[type=text],
@@ -199,12 +205,107 @@ input[type=checkbox] {
   margin: 10px 5px 10px 0;
 }
 
+input[type=submit]{
+  width: 5rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 100px;
+  background: #25DEB4;
+  color: #fff;
+}
+
 *:focus {
   outline: none;
 }
 
 @media screen and (max-width:767px) {
-  .contact--field {
+  .form--field {
     width: 100%;
   }
+}
+
+/* ----------------------------------------------- */
+/* LOCATION */
+/* ----------------------------------------------- */
+.location--label{
+  width: 3rem;
+  text-align: center;
+  margin-right: .5rem;
+}
+
+.location--submit{
+  margin-left: .5rem;
+  color: #25DEB4;
+  font-size: 2rem;
+}
+
+.location--img{
+  width: 70%;
+  margin: 2rem auto;
+}
+
+/* ----------------------------------------------- */
+/* LOCATION */
+/* ----------------------------------------------- */
+.store--img{
+  flex: 3;
+}
+
+.store--text{
+  flex: 1;
+  align-self: center;
+}
+
+/* ----------------------------------------------- */
+/* PRODUCT */
+/* ----------------------------------------------- */
+.product--01, .product--02, .product--03{
+  margin: 0 auto;
+  width: 15rem;
+  height: 15rem;
+  line-height: 15rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 2rem;
+}
+.product--01 {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/product01.jpeg);
+}
+
+.product--01:hover {
+  background-image: linear-gradient(rgba(122, 208, 36, 0.7), rgba(37, 222, 180, 0.7)), url(../img/product01.jpeg);
+}
+
+.product--02 {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/product02.jpeg);
+}
+
+.product--02:hover {
+  background-image: linear-gradient(rgba(122, 208, 36, 0.7), rgba(37, 222, 180, 0.7)), url(../img/product02.jpeg);
+}
+
+.product--03 {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/product03.jpeg);
+}
+
+.product--03:hover {
+  background-image: linear-gradient(rgba(122, 208, 36, 0.7), rgba(37, 222, 180, 0.7)), url(../img/product03.jpeg);
+}
+
+/* ----------------------------------------------- */
+/* CUSTOMER */
+/* ----------------------------------------------- */
+.customer--icon{
+  display: block;
+  text-align: center;
+  color: #25DEB4;
+  font-size: 5rem;
+  text-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.customer--text{
+  margin-bottom: 2rem;
+  text-align: center;
 }

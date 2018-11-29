@@ -1,30 +1,42 @@
 We're happy to hear from you %%%
-<section class="section section--contact">
-  <h3 class="section__heading">title</h3>
+<section class="section section__customer">
+  <h3 class="section__heading">고객센터</h3>
   <div class="section__container">
     <article class="content__container">
-      <form method="post" action="#" class="contact--form">
-        <div class="contact--field">
-          <div class="contact--label">
+      <i class="ion-ios-chatboxes customer--icon"></i>
+      <h4 class="content__title">Tel</h4>
+      <p class="content__text customer--text"><a href="tel:000-0000-0000">000 - 0000 - 0000</a></p>
+      <h4 class="content__title">운영시간</h4>
+      <p class="content__text customer--text">오전 9시 ~ 오후 6시</p>
+    </article>
+  </div>
+</section>
+<section class="section section--form">
+  <h3 class="section__heading">문의하기</h3>
+  <div class="section__container">
+    <article class="content__container">
+      <form method="post" action="#" class="form">
+        <div class="form--field">
+          <div class="form--label">
             <label for="name">이름</label>
           </div>
-          <div class="contact--input">
+          <div class="form--input">
             <input type="text" name="name" id="name" placeholder="당신의 이름을 입력해주세요." required>
           </div>
         </div>
-        <div class="contact--field">
-          <div class="contact--label">
+        <div class="form--field">
+          <div class="form--label">
             <label for="email">이메일</label>
           </div>
-          <div class="contact--input">
+          <div class="form--input">
             <input type="email" name="email" id="email" placeholder="이메일을 입력해주세요." required>
           </div>
         </div>
-        <div class="contact--field">
-          <div class="contact--label">
+        <div class="form--field">
+          <div class="form--label">
             <label for="find-us">찾아온 경로</label>
           </div>
-          <div class="contact--input">
+          <div class="form--input">
             <select name="find-us" id="find-us">
               <option value="friends" selected>친구</option>
               <option value="search">검색</option>
@@ -33,31 +45,30 @@ We're happy to hear from you %%%
             </select>
           </div>
         </div>
-        <div class="contact--field">
-          <div class="contact--label">
+        <div class="form--field">
+          <div class="form--label">
             <label>뉴스레터</label>
           </div>
-          <div class="contact--input">
+          <div class="form--input">
             <input type="checkbox" name="news" id="news" checked> 뉴스레터를 구독하겠습니다.
           </div>
         </div>
-        <div class="contact--field">
-          <div class="contact--label">
+        <div class="form--field">
+          <div class="form--label">
             <label>내용</label>
           </div>
-          <div class="contact--input">
+          <div class="form--input">
             <textarea name="message" placeholder="전할 말을 입력해주세요."></textarea>
           </div>
         </div>
-        <div class="contact--field">
-          <div class="contact--label">
+        <div class="form--field">
+          <div class="form--label">
             <label>&nbsp;</label>
           </div>
-          <div class="contact--input">
+          <div class="form--input">
             <input type="submit" value="보내기">
           </div>
         </div>
-
       </form>
     </article>
   </div>
