@@ -2,7 +2,7 @@ var dom = {
   nav: '.nav__links',
   link: '.nav__link',
   subtitle: '.sub__title',
-  main: '.main-container',
+  main: '.main',
   body: 'body'
 }
 

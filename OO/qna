@@ -1,13 +1,64 @@
 We're happy to hear from you %%%
-<main class="main main-home" id="qna">
-  <section class="section section-features">
-    <h3 class="section__heading">title</h3>
-    <div class="section__container">
-      <article class="content__container">
-        <div class="content__img img-open"><img src="img/first01.jpeg" alt="open"></div>
-        <h4 class="content__title">O.O.에서 한 번에 쇼핑하자!</h4>
-        <p class="content__text">투명하되 품에 황금시대의 보는 얼마나 쓸쓸한 예수는 것이다. 생명을 무엇을 이상은 그들에게 바로 사라지지 이상이 힘있다. 우리 놀이 듣기만 무한한 만물은 밥을 것은 말이다. 반짝이는 별과 커다란 발휘하기 길을 거친 이상 황금시대다.</p>
-      </article>
-    </div>
-  </section>
-</main>
+<section class="section section--contact">
+  <h3 class="section__heading">title</h3>
+  <div class="section__container">
+    <article class="content__container">
+      <form method="post" action="#" class="contact--form">
+        <div class="contact--field">
+          <div class="contact--label">
+            <label for="name">이름</label>
+          </div>
+          <div class="contact--input">
+            <input type="text" name="name" id="name" placeholder="당신의 이름을 입력해주세요." required>
+          </div>
+        </div>
+        <div class="contact--field">
+          <div class="contact--label">
+            <label for="email">이메일</label>
+          </div>
+          <div class="contact--input">
+            <input type="email" name="email" id="email" placeholder="이메일을 입력해주세요." required>
+          </div>
+        </div>
+        <div class="contact--field">
+          <div class="contact--label">
+            <label for="find-us">찾아온 경로</label>
+          </div>
+          <div class="contact--input">
+            <select name="find-us" id="find-us">
+              <option value="friends" selected>친구</option>
+              <option value="search">검색</option>
+              <option value="ad">광고</option>
+              <option value="other">기타</option>
+            </select>
+          </div>
+        </div>
+        <div class="contact--field">
+          <div class="contact--label">
+            <label>뉴스레터</label>
+          </div>
+          <div class="contact--input">
+            <input type="checkbox" name="news" id="news" checked> 뉴스레터를 구독하겠습니다.
+          </div>
+        </div>
+        <div class="contact--field">
+          <div class="contact--label">
+            <label>내용</label>
+          </div>
+          <div class="contact--input">
+            <textarea name="message" placeholder="전할 말을 입력해주세요."></textarea>
+          </div>
+        </div>
+        <div class="contact--field">
+          <div class="contact--label">
+            <label>&nbsp;</label>
+          </div>
+          <div class="contact--input">
+            <input type="submit" value="보내기">
+          </div>
+        </div>
+
+      </form>
+    </article>
+  </div>
+</section>

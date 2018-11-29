@@ -4,11 +4,13 @@ const toggle = (function() {
   btns.forEach(function(btn){
     btn.addEventListener('click', function() {
       const links = document.querySelector('.nav__links');
+      const remove = document.querySelector('.remove');
 
       for (let i = 0, item; item = btns[i]; i++) {
         btns[i].classList.toggle('on');
       }
       links.classList.toggle('on');
+      remove.classList.toggle('on');
     });
   });
 

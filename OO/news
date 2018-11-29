@@ -1,1 +1,30 @@
 news & promotion %%%
+  <section class="section section__event">
+    <h3 class="section__heading">진행중인 이벤트</h3>
+    <div class="section__container event--container event--current">
+      <article class="content__container event--content">
+        <h4 class="content__title">O.O. 론칭 기념 할인</h4>
+        <p class="content__text event--text">up to 30% off</p>
+        <a class="btn btn-white" href="#nowhere">온라인몰 바로가기</a>
+      </article>
+    </div>
+  </section>
+  <section class="section section__event">
+    <h3 class="section__heading">지난 이벤트</h3>
+    <div class="section__container event--container event--prev">
+      <article class="content__container event--content">
+        <h4 class="content__title">O.O. 1호점 오픈!</h4>
+        <p class="content__text event--text">특별한 선물을 받아가세요</p>
+        <a class="btn btn-white" href="#store">1호점 가는길 알아보기</a>
+      </article>
+    </div>
+  </section>
+  <section class="section section__partnership">
+    <h3 class="section__heading">제휴 할인</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <div class="content__img partnership--img"><img src="img/partnership.jpeg" alt="partnership"></div>
+        <p class="content__text partnership--text">포인트 적립 1%</p>
+      </article>
+    </div>
+  </section>

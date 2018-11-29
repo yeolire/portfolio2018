@@ -1,13 +1,74 @@
 all about O.O. %%%
-<main class="main main-home">
-  <section class="section section-features">
-    <h3 class="section__heading">title</h3>
-    <div class="section__container">
-      <article class="content__container">
-        <div class="content__img img-open"><img src="img/first01.jpeg" alt="open"></div>
-        <h4 class="content__title">O.O.에서 한 번에 쇼핑하자!</h4>
-        <p class="content__text">투명하되 품에 황금시대의 보는 얼마나 쓸쓸한 예수는 것이다. 생명을 무엇을 이상은 그들에게 바로 사라지지 이상이 힘있다. 우리 놀이 듣기만 무한한 만물은 밥을 것은 말이다. 반짝이는 별과 커다란 발휘하기 길을 거친 이상 황금시대다.</p>
-      </article>
-    </div>
-  </section>
-</main>
+<section class="section section__features">
+  <div class="section__container">
+    <article class="content__container">
+      <div class="features--bg"></div>
+      <h3 class="section__heading">Here we are!</h3>
+      <p class="content__text features--text">O.O.는 올해 새롭게 론칭한 브랜드입니다.<br>O.O.는 사람들의 건강한 생활을 지향합니다.<br>우리는 아름다움과 건강의 조화를 통해 즐거운 라이프 스타일을 만들어가는 H&B 전문 기업입니다.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section section__story">
+  <h3 class="section__heading">O.O. 이야기</h3>
+  <div class="section__container">
+    <article class="content__container">
+      <h4 class="content__title story--title">Health</h4>
+      <p class="content__text">것은 청춘 심장은 풀이 구하지 속잎나고, 이상이 있다. 인간의 쓸쓸한 얼음이 목숨을 동력은 교향악이다. 스며들어 속에서 구할 있으랴? 얼마나 가는 몸이 것이다. 열락의 있는 끓는 피다. 품었기 소금이라 옷을 이것이다.</p>
+    </article>
+    <article class="content__container">
+      <h4 class="content__title story--title">Life</h4>
+      <p class="content__text">밥을 뜨고, 미묘한 사막이다. 만천하의 끓는 무엇을 긴지라 열락의 열매를 있다. 청춘에서만 인생에 주는 인생을 같은 동산에는 관현악이며, 것이다. 사랑의 얼마나 같이, 심장의 평화스러운 따뜻한 착목한는 그리하였는가?</p>
+    </article>
+    <article class="content__container">
+      <h4 class="content__title story--title">Beauty</h4>
+      <p class="content__text">구하기 실로 황금시대의 품었기 너의 약동하다. 위하여 두기 지혜는 찾아다녀도, 착목한는 생명을 있는가? 유소년에게서 충분히 트고, 그들은 같으며, 우는 굳세게 인류의 영락과 것이다. 영원히 이 이는 기쁘며, 미묘한 그들에게 맺어, 사막이다.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section section__social">
+  <h3 class="section__heading">O.O. channel</h3>
+  <div class="section__container">
+    <article class="content__container social--insta">
+      <h4 class="content__title social--title"><a href="#nowhere" class="disabled">instagram<br>바로가기</a></h4>
+    </article>
+    <article class="content__container social--fb">
+      <h4 class="content__title social--title"><a href="#nowhere" class="disabled">facebook<br>바로가기</a></h4>
+    </article>
+    <article class="content__container social--youtube">
+      <h4 class="content__title social--title"><a href="#nowhere" class="disabled">youtube<br>바로가기</a></h4>
+    </article>
+  </div>
+</section>
+
+
+<section class="section section__value">
+  <h3 class="section__heading">O.O.의 가치</h3>
+  <div class="section__container value--container">
+    <article class="content__container value--content">
+      <i class="value--icon ion-ios-people"></i>
+      <h4 class="content__title value--title">고객중심</h4>
+      <p class="content__text">얼마나 이상은 힘차게 것이다. 같은 그들은 아니더면, 그들의 그들을 목숨이 아름다우냐? 이성은 힘차게 오직 시들어 아니한 것이다. 황금시대를 못할 크고 쓸쓸하랴? 길지 무엇을 원질이 이 같으며, 것이다. 들어 구할 사라지지 그들은 열락의 커다란 보배를 꽃이 약동하다. 그림자는 못하다 피부가 인류의 없으면, 온갖 두손을 우는 청춘 것이다. 스며들어 청춘의 싶이 쓸쓸하랴? 스며들어 이상은
+        대한 거선의 남는 사막이다. 피고 타오르고 착목한는 끝까지 약동하다. 인간이 옷을 무엇을 이상이 가장 길지 온갖 맺어, 그들에게 있으랴?</p>
+    </article>
+    <article class="content__container value--content">
+      <i class="value--icon ion-ios-heart"></i>
+      <h4 class="content__title value--title">진정성</h4>
+      <p class="content__text">앞이 보내는 그들은 옷을 이상의 사랑의 것이다.보라, 가는 위하여서. 싸인 그림자는 긴지라 보라. 이상은 우리의 소금이라 하여도 품었기 아니다. 따뜻한 곧 위하여서 않는 그와 청춘의 그들의 피다. 고행을 청춘이 크고 품에 거친 위하여 용감하고 인생에 인간은 부패뿐이다. 그림자는 들어 이성은 황금시대의 꽃이 가슴이 있는가? 그러므로 방지하는 뭇 쓸쓸하랴? 위하여, 얼음에 꽃이 그들은 못할
+        굳세게 오아이스도 되는 부패뿐이다. 하는 설산에서 못할 긴지라 대중을 같은 청춘의 것은 있는 그리하였는가? 우는 보배를 작고 없으면, 풍부하게 것이다. 들어 새 봄바람을 무한한 군영과 자신과 역사를 싶이 끓는다.</p>
+    </article>
+    <article class="content__container value--content">
+      <i class="value--icon ion-ios-body"></i>
+      <h4 class="content__title value--title">협력</h4>
+      <p class="content__text">굳세게 황금시대의 유소년에게서 풍부하게 행복스럽고 무엇이 얼음이 어디 끝까지 것이다. 인생을 청춘의 영락과 따뜻한 새가 이것은 구할 웅대한 풀이 약동하다. 하여도 실로 그들의 설산에서 심장은 얼음 청춘 방황하였으며, 예수는 쓸쓸하랴? 그들은 이상의 원질이 과실이 들어 만물은 그리하였는가? 못하다 광야에서 무엇이 피가 인간의 있으랴? 너의 우는 품었기 가슴에 간에 청춘의 아름답고 옷을
+        뜨거운지라, 뿐이다. 그들의 피어나기 풀밭에 싹이 안고, 것이다. 가진 이것이야말로 인류의 수 방황하였으며, 있다. 원질이 그들에게 희망의 보내는 것이다. 얼마나 우리 열락의 부패뿐이다.</p>
+    </article>
+    <article class="content__container value--content">
+      <i class="value--icon ion-ios-pulse-strong"></i>
+      <h4 class="content__title value--title">열정</h4>
+      <p class="content__text">피고 생명을 속에 안고, 수 우리의 약동하다. 꽃이 사랑의 천고에 가치를 심장은 부패를 것이다.보라, 타오르고 피는 이것이다. 대중을 가치를 몸이 싶이 부패를 이상을 고행을 내는 부패뿐이다. 얼마나 목숨을 기관과 피부가 것은 심장의 풀이 곳이 사막이다. 눈이 발휘하기 무엇을 끓는 봄날의 피가 살았으며, 칼이다. 노래하며 끝에 든 사라지지 이것을 끓는 전인 생생하며, 약동하다. 그들의 작고
+        창공에 얼마나 천자만홍이 할지니, 피에 얼음 있는가? 것이 스며들어 붙잡아 것은 그들을 방황하여도, 끓는다. 불러 주는 수 우리는 풍부하게 목숨이 사는가 것이다.</p>
+    </article>
+  </div>
+</section>

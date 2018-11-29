@@ -1,5 +1,210 @@
 @charset "UTF-8";
 
 /* ----------------------------------------------- */
-/* HOME */
+/* FEATURES */
 /* ----------------------------------------------- */
+.features--bg {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 35vh;
+  height: 35vh;
+  border-radius: 50%;
+  background: url(../img/open.jpeg) center;
+  background-size: cover;
+}
+
+.features--text {
+  text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* SOCIAL */
+/* ----------------------------------------------- */
+.social--insta, .social--fb, .social--youtube {
+  position: relative;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.social--insta {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/insta.jpeg);
+}
+
+.social--insta:hover {
+  background-image: linear-gradient(rgba(122, 208, 36, 0.7), rgba(37, 222, 180, 0.7)), url(../img/insta.jpeg);
+}
+
+.social--fb {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/fb.jpeg);
+}
+
+.social--fb:hover {
+  background-image: linear-gradient(rgba(122, 208, 36, 0.7), rgba(37, 222, 180, 0.7)), url(../img/fb.jpeg);
+}
+
+.social--youtube {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/youtube.jpeg);
+}
+
+.social--youtube:hover {
+  background-image: linear-gradient(rgba(122, 208, 36, 0.7), rgba(37, 222, 180, 0.7)), url(../img/youtube.jpeg);
+}
+
+.social--title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 145%;
+}
+
+@media screen and (max-width:1024px) {
+  .social--insta, .social--fb, .social--youtube {
+    height: 50vh;
+  }
+}
+@media screen and (max-width:767px) {
+  .social--insta, .social--fb, .social--youtube {
+    height: 20vh;
+  }
+}
+
+/* ----------------------------------------------- */
+/* STORY */
+/* ----------------------------------------------- */
+.story--title {
+  margin: .5rem auto;
+  margin-bottom: 1.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, #7AD024, #25DEB4);
+  color: #fff;
+  line-height: 5.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+/* ----------------------------------------------- */
+/* VALUE */
+/* ----------------------------------------------- */
+.value--content{
+  flex-basis: 40vw;
+}
+
+.value--icon{
+  display: block;
+  text-align: center;
+  color: #25DEB4;
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+@media screen and (max-width:1024px) {
+  .value--container{
+    flex-wrap: wrap;
+  }
+}
+/* ----------------------------------------------- */
+/* EVENT */
+/* ----------------------------------------------- */
+.event--container {
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.event--current {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/sale.jpeg);
+}
+
+.event--prev {
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/gift.jpeg);
+}
+
+.event--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.event--text {
+  width: 90%;
+  font-size: 4.5rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  line-height: 145%;
+  word-break: keep-all;
+  text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* STORE */
+/* ----------------------------------------------- */
+.store--text{
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* PARTNERSHIP */
+/* ----------------------------------------------- */
+.partnership--img{
+  width: 50%;
+  margin: 0 auto;
+}
+.partnership--text{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+
+/* ----------------------------------------------- */
+/* FORM */
+/* ----------------------------------------------- */
+.contact--field{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.contact--label{
+  width: 30%;
+  margin-right: 3rem;
+  text-align: right;
+}
+.contact--input{
+  width: 70%;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+@media screen and (max-width:767px) {
+  .contact--field {
+    width: 100%;
+  }
+}
