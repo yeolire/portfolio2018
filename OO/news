@@ -5,7 +5,7 @@ news & promotion %%%
     <article class="content__container event--content">
       <h4 class="content__title">O.O. 1호점 오픈!</h4>
       <p class="content__text event--text">특별한 선물을 받아가세요</p>
-      <a class="btn btn-white" href="#store">1호점 가는길 알아보기</a>
+      <a class="btn btn-white" href="#store">가는 길 알아보기</a>
     </article>
   </div>
 </section>
