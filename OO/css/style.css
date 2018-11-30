@@ -271,6 +271,13 @@ input[type=submit]{
   color: #fff;
   font-size: 2rem;
 }
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+  .product--01, .product--02, .product--03{
+    width: 12rem;
+    height: 12rem;
+  }
+}
 .product--01 {
   background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/product01.jpeg);
 }
