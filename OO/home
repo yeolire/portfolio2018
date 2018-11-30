@@ -23,7 +23,6 @@ shop at only once %%%
   </section>
 
   <section class="section section__event">
-    <h3 class="section__heading">진행중인 이벤트</h3>
     <div class="section__container event--container event--current">
       <article class="content__container event--content">
         <h4 class="content__title">O.O. 1호점 오픈!</h4>
