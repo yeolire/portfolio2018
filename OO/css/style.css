@@ -276,6 +276,7 @@ input[type=submit]{
   .product--01, .product--02, .product--03{
     width: 12rem;
     height: 12rem;
+    line-height: 12rem;
   }
 }
 .product--01 {
