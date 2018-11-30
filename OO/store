@@ -1,6 +1,6 @@
 let's go to O.O. %%%
 <section class="section section__product">
-  <h3 class="section__heading">상품소개</h3>
+  <h3 class="section__heading">상품 소개</h3>
   <div class="section__container">
     <article class="content__container">
       <h4 class="content__title product--01">Health</h4>
@@ -15,7 +15,7 @@ let's go to O.O. %%%
 </section>
 
 <section class="section section__store">
-  <h3 class="section__heading">매장소개</h3>
+  <h3 class="section__heading">운영 시간</h3>
   <div class="section__container">
     <article class="content__container store--img">
       <div class="content__img"><img src="img/store.jpeg" alt="store"></div>
@@ -30,7 +30,7 @@ let's go to O.O. %%%
 </section>
 
 <section class="section section__location">
-  <h3 class="section__heading">매장찾기</h3>
+  <h3 class="section__heading">매장 찾기</h3>
   <div class="section__container">
     <article class="content__container">
       <form method="post" action="#" class="form">
