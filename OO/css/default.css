@@ -44,7 +44,9 @@ ul, ol {
   list-style: none;
 }
 
-i{font-family: sans-serif;}
+i {
+  font-family: sans-serif;
+}
 
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
