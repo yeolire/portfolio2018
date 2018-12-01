@@ -28,25 +28,28 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     dice.src = 'dice-' + dot + '.png';
 
     if (second) {
-     secondDot = Math.floor(Math.random() * 6)+1;
+      secondDot = Math.floor(Math.random() * 6) + 1;
       console.log('player' + activePlayer, secondPrevDot, secondDot);
 
       secondDice.style.display = 'block';
       secondDice.src = 'dice-' + secondDot + '.png';
     }
 
-    if (dot !== 1 || secondDot !== 1) {
+    if (dot === 1 || secondDot === 1) {
+      nextPlayer();
+      console.log('next');
+    } else {
+      console.log('go');
+
       second ? roundScore += dot + secondDot : roundScore += dot;
       document.querySelector('#current-' + activePlayer).textContent = roundScore;
-      if ((dot === 6 && prevDot === 6)||(secondDot===6&&secondPrevDot===6)) {
+      if ((dot === 6 && prevDot === 6) || (secondDot === 6 && secondPrevDot === 6)) {
         scores[activePlayer] = 0;
         document.getElementById('score-' + activePlayer).textContent = 0;
         nextPlayer();
       }
       prevDot = dot;
       secondPrevDot = secondDot;
-    } else {
-      nextPlayer();
     }
   }
 });
@@ -104,6 +107,8 @@ function init() {
   second = false;
   dice = document.querySelector('.dice1');
   secondDice = document.querySelector('.dice2');
+
+  console.log(second);
 
   dice.style.display = 'none';
   secondDice.style.display = 'none';
