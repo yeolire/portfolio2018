@@ -45,7 +45,7 @@ let's go to O.O. %%%
         </div>
       </form>
 
-      <div class="location__map" id="map" style="width:750px;height:350px;"></div>
+      <div class="location__map" id="map" style="width:750px;height:350px;margin: 0 auto"></div>
 
       <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a153a3d4d6f9f62d5981c735bd0f132a"></script>
       <script>
