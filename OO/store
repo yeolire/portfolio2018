@@ -44,16 +44,37 @@ let's go to O.O. %%%
           <button type="submit" class="location--submit"><i class="ion-ios-search-strong"></i></button>
         </div>
       </form>
-      <div class="location__map" id="map"></div>
-      <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a9b7ce8927cca42327c18cce9f96b1e5"></script>
+
+      <div class="location__map" id="map" style="width:750px;height:350px;"></div>
+
+      <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a153a3d4d6f9f62d5981c735bd0f132a"></script>
       <script>
         var mapContainer = document.getElementById('map'),
           mapOption = {
-            center: new daum.maps.LatLng(33.450701, 126.570667),
-            level: 3
+            center: new daum.maps.LatLng(37.56527, 126.97743),
+            level: 3, // 지도의 확대 레벨
+            mapTypeId: daum.maps.MapTypeId.ROADMAP
           };
 
         var map = new daum.maps.Map(mapContainer, mapOption);
+
+        var zoomControl = new daum.maps.ZoomControl();
+
+        map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
+
+        var marker = new daum.maps.Marker({
+          position: new daum.maps.LatLng(37.56527, 126.97743),
+          draggable: true,
+          map: map
+        });
+
+        var customOverlay = new daum.maps.CustomOverlay({
+          map: map,
+          content: '<div style="padding:.5rem 1rem;background:#fff;border-radius:100px;  background: linear-gradient(to right bottom, #7AD024, #25DEB4);color: #fff;font-weight:bold">We are Here!</div>',
+          position: new daum.maps.LatLng(37.56527, 126.97743),
+          xAnchor: 0.5,
+          yAnchor: -0.2
+        });
       </script>
     </article>
   </div>
