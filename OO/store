@@ -44,7 +44,6 @@ let's go to O.O. %%%
           <button type="submit" class="location--submit"><i class="ion-ios-search-strong"></i></button>
         </div>
       </form>
-      <div class="content__img location--img"><img src="img/map.png" alt="map"></div>
     </article>
   </div>
 </section>
