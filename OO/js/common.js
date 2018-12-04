@@ -19,8 +19,9 @@ const toggle = (function() {
 
           if (classname.contains('toggle') || classname.contains('nav__link')) {
             show();
-            console.log(e.target.className);
-          });
+          }
+
+        });
 
       })();
 
@@ -31,7 +32,7 @@ const stickyNav = (function() {
   window.addEventListener('scroll', function() {
 
     const header = document.querySelector('.header');
-    
+
     header.classList.add('sticky');
 
     if (window.pageYOffset < 10) {
