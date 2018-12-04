@@ -1,29 +1,43 @@
 const toggle = (function() {
-  const btns = Array.from(document.querySelectorAll('.toggle'));
 
-  const show=function() {
-    const remove = document.querySelector('.remove');
-    const lists = document.querySelector('.nav__links');
+      document.querySelector('.header__wrap').addEventListener('click', function(e) {
 
-    for (let i = 0, item; item = btns[i]; i++) {
-      btns[i].classList.toggle('on');
-    }
-    lists.classList.toggle('on');
-    remove.classList.toggle('on');
-  }
+          const classname = e.target.classList;
+          const btns = document.querySelectorAll('.toggle');
+          const nav = document.querySelector('.nav__links');
+          const list = document.querySelector('.nav__link');
 
-  btns.forEach(function(btn){
-    btn.addEventListener('click', show);
-  });
-})();
+          show = function() {
+            const remove = document.querySelector('.remove');
+
+            for (let i = 0, item; item = btns[i]; i++) {
+              btns[i].classList.toggle('on');
+            }
+            nav.classList.toggle('on');
+            remove.classList.toggle('on');
+          }
+
+          if (classname.contains('toggle') || classname.contains('nav__link')) {
+            show();
+            console.log(e.target.className);
+          });
+
+      })();
+
 
 
 const stickyNav = (function() {
-  window.addEventListener('scroll', function(){
-    const header=document.querySelector('.header');
+
+  window.addEventListener('scroll', function() {
+
+    const header = document.querySelector('.header');
+    
     header.classList.add('sticky');
-    if(window.pageYOffset<10){
+
+    if (window.pageYOffset < 10) {
       header.classList.remove('sticky');
     }
+
   });
+
 })();
