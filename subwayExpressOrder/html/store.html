@@ -24,18 +24,26 @@
     <section>
       <div id="map"></div>
     </section>
-      <form action="">
-        <input type="text" id="search" placeholder="지역 또는 매장명 입력">
-        <button><i class="fas fa-search"></i></button>
-      </form>
+    <form action="">
+      <input type="text" id="search" placeholder="지역 또는 매장명 입력">
+      <button><i class="fas fa-search"></i></button>
+    </form>
   </main>
 
   <!-- Tab Bar -->
   <footer class="fixed">
-      <a href="home.html"><i class="fas fa-home"></i><h2>Home</h2></a>
-      <a href="store.html" class="active"><i class="fas fa-map-marker-alt"></i></i><h2>Store</h2></a>
-      <a href="notification.html"><i class="fas fa-bell"></i><h2>Notifications</h2></a>
-      <a href="more.html"><i class="fas fa-ellipsis-h"></i><h2>More</h2></a>
+    <a href="home.html"><i class="fas fa-home"></i>
+      <h2>Home</h2>
+    </a>
+    <a href="store.html" class="active"><i class="fas fa-map-marker-alt"></i></i>
+      <h2>Store</h2>
+    </a>
+    <a href="notification.html"><i class="fas fa-bell"></i>
+      <h2>Notifications</h2>
+    </a>
+    <a href="more.html"><i class="fas fa-ellipsis-h"></i>
+      <h2>More</h2>
+    </a>
   </footer>
 
   <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a153a3d4d6f9f62d5981c735bd0f132a&libraries=services"></script>
@@ -62,7 +70,7 @@
       e.preventDefault();
       var input = document.querySelector('.map input').value;
 
-      ps.keywordSearch('써브웨이 '+input, placesSearchCB);
+      ps.keywordSearch('써브웨이 ' + input, placesSearchCB);
     });
 
     function placesSearchCB(data, status, pagination) {
