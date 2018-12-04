@@ -52,13 +52,6 @@
 
     var map = new daum.maps.Map(mapContainer, mapOption);
 
-    var mapTypeControl = new daum.maps.MapTypeControl();
-
-    map.addControl(mapTypeControl, daum.maps.ControlPosition.TOPRIGHT);
-
-    var zoomControl = new daum.maps.ZoomControl();
-    map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
-
     var ps = new daum.maps.services.Places();
 
     ps.keywordSearch('써브웨이', placesSearchCB);
