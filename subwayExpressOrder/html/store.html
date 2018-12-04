@@ -21,12 +21,11 @@
 
   <!-- Main -->
   <main id="more" class="map">
-    <section>
+    <section id="map">
       <form action="">
         <input type="text" id="search" placeholder="지역 또는 매장명 입력">
         <button><i class="fas fa-search"></i></button>
       </form>
-      <div id="map"></div>
     </section>
   </main>
 
@@ -41,7 +40,7 @@
   <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a153a3d4d6f9f62d5981c735bd0f132a&libraries=services"></script>
   <script>
     var infowindow = new daum.maps.InfoWindow({
-      zIndex: 20
+      zIndex: 1
     });
 
     var mapContainer = document.getElementById('map'),

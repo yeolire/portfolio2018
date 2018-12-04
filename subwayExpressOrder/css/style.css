@@ -120,9 +120,8 @@ p{color: #aaa;font-size: .8rem;}
 #more li~li{border-top: 1px solid #ccc;}
 #more i{margin-right: 1.5rem;width: 1.5rem;text-align: center;font-size: 1.2rem;}
 #more i.fa-chevron-right{color: #FFC80F;position: absolute;right: -1rem;top: 50%;transform: translateY(-50%);}
-#more form{height: 3rem;display: flex;align-items: center;justify-content: space-around;margin: 1rem;background: #fff;z-index: 10;}
+#more form{height: 3rem;display: flex;align-items: center;justify-content: space-around;margin: 1rem;background: #fff}
 #more form button{color: #009132;font-size: .9rem;width: 3rem;height: 3rem;}
 #more form i{margin: 0 auto;}
 #more form input{width: 80%;height: 100%;padding-left: 1rem;}
-#more.map section{position: relative;}
-#map{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: url(../img/map.png);z-index: -1;}
+#map{background: url(../img/map.png);}
