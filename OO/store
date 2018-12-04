@@ -39,11 +39,12 @@ let's go to O.O. %%%
             <label for="name">매장명</label>
           </div>
           <div class="form--input">
-            <input type="text" name="name" id="name" placeholder="매장 이름을 입력해주세요" required>
+            <input type="text" name="name" id="name" placeholder="매장 이름을 입력해주세요" required class="input">
           </div>
-          <button type="submit" class="location--submit"><i class="ion-ios-search-strong"></i></button>
+          <button class="location--search"><i class="ion-ios-search-strong"></i></button>
         </div>
       </form>
+      <iframe src="map.html" frameborder="0" class="location__map"></iframe>
     </article>
   </div>
 </section>

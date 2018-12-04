@@ -8,7 +8,7 @@ var dom = {
 
 var fetchPage = function(name) {
   fetch(name).then(function(response) {
-    if(response.status==='404'){
+    if (response.status === '404') {
       document.querySelector(dom.subtitle).textContent = 'Not found';
       document.querySelector(dom.main).innerHTML = 'Not found';
     }
@@ -49,9 +49,9 @@ var load = function() {
 
 load();
 
-document.querySelector(dom.body).addEventListener('click', function(e){
-  if(e.target.classList.contains('btn') || e.target.classList.contains('disabled')){
-    var hash=e.target.href.split('#')[1];
+document.querySelector(dom.body).addEventListener('click', function(e) {
+  if (e.target.classList.contains('btn') || e.target.classList.contains('disabled')) {
+    var hash = e.target.href.split('#')[1];
     fetchPage(hash);
   }
 });
