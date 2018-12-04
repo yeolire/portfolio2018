@@ -62,7 +62,7 @@
       e.preventDefault();
       var input = document.querySelector('.map input').value;
 
-      ps.keywordSearch(input, placesSearchCB);
+      ps.keywordSearch('써브웨이'+input, placesSearchCB);
     });
 
     function placesSearchCB(data, status, pagination) {
