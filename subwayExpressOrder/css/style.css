@@ -125,4 +125,4 @@ p{color: #aaa;font-size: .8rem;}
 #more form i{margin: 0 auto;}
 #more form input{width: 80%;height: 100%;padding-left: 1rem;}
 #more.map section{position: relative;}
-#map{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: #ccc;z-index: -1;}
+#map{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: url(../img/map.png);z-index: -1;}
