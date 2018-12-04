@@ -33,17 +33,6 @@ let's go to O.O. %%%
   <h3 class="section__heading">매장 찾기</h3>
   <div class="section__container">
     <article class="content__container">
-      <form method="post" action="#" class="form">
-        <div class="form--field">
-          <div class="form--label location--label">
-            <label for="name">매장명</label>
-          </div>
-          <div class="form--input">
-            <input type="text" name="name" id="name" placeholder="매장 이름을 입력해주세요" required class="input">
-          </div>
-          <button class="location--search"><i class="ion-ios-search-strong"></i></button>
-        </div>
-      </form>
       <iframe src="map.html" frameborder="0" class="location__map"></iframe>
     </article>
   </div>
