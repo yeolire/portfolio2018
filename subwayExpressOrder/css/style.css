@@ -124,4 +124,5 @@ p{color: #aaa;font-size: .8rem;}
 #more form button{color: #009132;font-size: .9rem;width: 3rem;height: 3rem;}
 #more form i{margin: 0 auto;}
 #more form input{width: 80%;height: 100%;padding-left: 1rem;}
-#more.map section{width: 100%;height: 100%;}
+#more.map section{position: relative;}
+#map{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;}
