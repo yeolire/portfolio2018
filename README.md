@@ -36,12 +36,6 @@
 - **팀프로젝트**
 
 
-## [H&M](https://yeolire.github.io/portfolio2018/hm)
-### 리뉴얼: 데스크탑 홈페이지
-- **HTML**, **CSS**, **JavaScript**  
-- Layout: float, position 사용  
-
-
 ## [어둠속의 대화](https://yeolire.github.io/portfolio2018/dialogueInTheDark)
 ### 리뉴얼: 단일페이지 반응형 웹사이트
 - **HTML**, **CSS**, **JavaScript**
