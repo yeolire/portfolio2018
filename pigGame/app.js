@@ -89,15 +89,31 @@ function nextPlayer() {
 document.querySelector('.btn-new').addEventListener('click', init);
 
 document.querySelector('.btn-winning').addEventListener('click', function() {
-  alert('ok!');
-  winning = parseInt(document.getElementById('set-winning').value);
+  inputScore();
+
+  function inputScore() {
+    var win = prompt('Input the winning score.');
+    if (isNaN(win) || win !== null) {
+      alert('You can input only number');
+      inputScore();
+    } else {
+      var ok = confirm('Your winning scroe is ' + win + ', right?');
+      if (ok) {
+        winning = win;
+      } else {
+        inputScore();
+      }
+    }
+  }
 });
 
 document.querySelector('.btn-second').addEventListener('click', function() {
-  alert('add second dice!');
-  second = true;
-  dice.style.display = 'block';
-  secondDice.style.display = 'block';
+  var add = confirm('Do you want another dice?');
+  if (add) {
+    second = true;
+    dice.style.display = 'block';
+    secondDice.style.display = 'block';
+  }
 });
 
 function init() {
