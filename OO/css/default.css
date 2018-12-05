@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Kumar+One+Outline|Sunflower');
 
 html, body {
-  font-family: 'Sunflower', sans-serif;
+  font-family:  sans-serif;
   text-rendering: optimizeLegibility;
   line-height: 145%;
   word-break: keep-all;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2, h3, h4 {
-  font-family: 'Chakra Petch', 'Sunflower', sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   text-transform: capitalize;
   text-align: center;
   line-height: 120%;
