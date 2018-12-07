@@ -39,11 +39,11 @@ body {
   background: #302b6d;
 }
 
-#content {
+#main {
   margin-top: 1rem;
 }
 
-#content>section {
+#main>section {
   margin: 2rem auto;
 }
 
