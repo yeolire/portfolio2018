@@ -25,8 +25,8 @@ var fetchPage = function(name) {
   });
 }
 
-  if (location.hash) {
-    fetchPage(location.hash.substr(1));
-  } else {
-    fetchPage('index');
-  }
+if (location.hash) {
+  fetchPage(location.hash.substr(1));
+} else {
+  fetchPage('index');
+}

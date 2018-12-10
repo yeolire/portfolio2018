@@ -190,6 +190,10 @@ h3 {
   }
 }
 
+.contnt-brand{
+  position: relative;
+}
+
 .bg {
   position: absolute;
   top: 0;
