@@ -7,9 +7,9 @@
       <hr>
       <p>남산서울타워의 아름다운 풍경과 맛있는 음식을 함께 즐겨보세요!</p>
       <p>사랑하는 사람들과 맛있게 즐길 수 있는 한식, 양식, 식후에 즐기는 카페와 디저트까지 남산서울타워가 모두 책임질게요.</p>
-      <img src="img/tour_theme_food01.jpg" alt="먹을거리"><br>
-      <img src="img/tour_theme_food02.jpg" alt="먹을거리"><br>
-      <img src="img/tour_theme_food03.jpg" alt="먹을거리">
+      <img class="w-100 m-1" src="img/tour_theme_food01.jpg" alt="먹을거리">
+      <img class="w-100 m-1" src="img/tour_theme_food02.jpg" alt="먹을거리">
+      <img class="w-100 m-1" src="img/tour_theme_food03.jpg" alt="먹을거리">
     </article>
   </div>
 </section>
@@ -21,9 +21,9 @@
       <p>다양한 즐길거리가 가득한 남산서울타워! </p>
       <p>내가 좋아하는 K POP스타와 함께 사진도 찍고, 연인과 행복한 순간을 추억으로 남겨보세요.</p>
       <p>한복 문화 체험 등 다양한 놀거리를 즐겨보세요.</p>
-      <img class="w-100" src="img/theme10.png" alt="즐길거리"><br>
-      <img class="w-100" src="img/theme2.png" alt="즐길거리"><br>
-      <img class="w-100" src="img/theme3.png" alt="즐길거리">
+      <img class="w-100 m-1" src="img/theme10.png" alt="즐길거리">
+      <img class="w-100 m-1" src="img/theme2.png" alt="즐길거리">
+      <img class="w-100 m-1" src="img/theme3.png" alt="즐길거리">
     </article>
   </div>
 </section>
@@ -34,9 +34,9 @@
       <hr>
       <p>서울의 중심에서 바라보는 남산의 자연 풍경과 도심의 야경 등, 남산서울타워에는 풍성한 볼거리가 가득합니다.</p>
       <p>남산서울타워가 자신있게 추천하는 볼거리를 확인해 보세요.</p>
-      <img class="w-100" src="img/theme6.png" alt="볼거리"><br>
-      <img class="w-100" src="img/theme9.png" alt="볼거리"><br>
-      <img class="w-100" src="img/theme7.png" alt="볼거리">
+      <img class="w-100 m-1" src="img/theme6.png" alt="볼거리">
+      <img class="w-100 m-1" src="img/theme9.png" alt="볼거리">
+      <img class="w-100 m-1" src="img/theme7.png" alt="볼거리">
     </article>
   </div>
 </section>

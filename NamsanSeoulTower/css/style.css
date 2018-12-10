@@ -18,6 +18,10 @@ body {
   flex-wrap: wrap;
 }
 
+img{
+  text-align: center;
+}
+
 /* ------- ABOUT ------- */
 /* Yellow #feae01 */
 /* Purple #302b6d */
@@ -190,7 +194,7 @@ h3 {
   }
 }
 
-#main{
+#brand{
   position: relative;
 }
 
