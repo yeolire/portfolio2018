@@ -18,11 +18,6 @@ body {
   flex-wrap: wrap;
 }
 
-#main img{
-  text-align: center;
-  width: 100%;
-}
-
 /* ------- ABOUT ------- */
 /* Yellow #feae01 */
 /* Purple #302b6d */
@@ -193,4 +188,10 @@ h3 {
     width: 140% !important;
     margin-left: -20%;
   }
+}
+
+#main section img{
+  max-width: 100%;
+  display: inline-block;
+  margin: 0 auto;
 }
