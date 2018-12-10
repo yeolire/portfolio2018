@@ -25,23 +25,15 @@ var fetchPage = function(name) {
   });
 }
 
-
-var load = function() {
-
-  if (location.hash) {
-    fetchPage(location.hash.substr(1));
-  } else {
-    fetchPage('index');
-  }
-
+if (location.hash) {
+  fetchPage(location.hash.substr(1));
+} else {
+  fetchPage('index');
 }
 
-load();
-
-var links=Array.prototype.slice.call(document.querySelectorAll(dom.link));
-links.forEach(function(cur){
-  cur.addEventListener('click', function(e){
-    e.preventDefault();
-    load();
+var links = Array.prototype.slice.call(document.querySelectorAll(dom.link));
+links.forEach(function(cur) {
+  cur.addEventListener('click', function(e) {
+    fetchPage(cur.href.split('#')[1]);
   });
 });
