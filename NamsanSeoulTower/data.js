@@ -39,4 +39,6 @@ var load = function() {
 load();
 
 var links=Array.prototype.slice.call(document.querySelectorAll(dom.link));
-links.forEach(addEventListener('click', load));
+links.forEach(function(cur){
+  cur.addEventListener('click', load);
+});
