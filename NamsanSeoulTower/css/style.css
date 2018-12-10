@@ -145,7 +145,7 @@ h3 {
   width: 120px;
   height: 120px;
   margin: .5rem;
-  transition: transform .3s
+  transition: .3s;
 }
 
 .rcmd-icon:hover {
