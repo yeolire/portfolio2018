@@ -38,9 +38,5 @@ var load = function() {
 
 load();
 
-document.querySelector(dom.body).addEventListener('click', function(e) {
-  if (e.target.classList.contains('btn') || e.target.classList.contains('disabled')) {
-    var hash = e.target.href.split('#')[1];
-    fetchPage(hash);
-  }
-});
+var links=Array.prototype.slice.call(document.querySelectorAll(dom.link));
+links.forEach(addEventListener('click', load));
