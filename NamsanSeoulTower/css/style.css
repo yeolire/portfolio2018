@@ -194,7 +194,7 @@ h3 {
 
   .content-event img {
     width: 140% !important;
-    margin-left: -20%;
+    margin-left: -20% !important;
   }
 
   #main section img{
