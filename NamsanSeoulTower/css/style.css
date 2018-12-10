@@ -155,7 +155,8 @@ h3 {
 
 .rcmd-icon-img {
   position: absolute;
-  width: 100%;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .rcmd-icon-title {
