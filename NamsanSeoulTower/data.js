@@ -41,7 +41,7 @@ load();
 var links=Array.prototype.slice.call(document.querySelectorAll(dom.link));
 links.forEach(function(cur){
   cur.addEventListener('click', function(e){
-    e.preventDefalut();
+    e.preventDefault();
     load();
   });
 });
