@@ -21,9 +21,6 @@ body {
 /* ------- ABOUT ------- */
 /* Yellow #feae01 */
 /* Purple #302b6d */
-
-
-
 /* ------------------------------------ */
 /* HEADER */
 /* ------------------------------------ */
@@ -34,6 +31,7 @@ body {
   background-attachment: fixed;
   color: #fff;
 }
+
 #nav {
   min-height: 60px;
   background: #302b6d;
@@ -47,25 +45,23 @@ body {
   margin: 2rem auto;
 }
 
-h3{
+h3 {
   margin-top: 1.5rem;
   color: #feae01;
 }
 
-#sub-title{
+#sub-title {
   text-align: center;
 }
 
-#sub-title p{
+#sub-title p {
   font-weight: lighter;
   color: #302b6d;
 }
 
-
 /* ------------------------------------ */
 /* FOOTER */
 /* ------------------------------------ */
-
 #footer {
   color: #fff;
   font-weight: lighter;
@@ -79,11 +75,9 @@ h3{
   padding-right: 20px;
 }
 
-
 /* ------------------------------------ */
 /* INDEX */
 /* ------------------------------------ */
-
 /* ------------ ABOUT ------------ */
 .about-text {
   font-size: 1.2rem;
@@ -135,23 +129,24 @@ h3{
   background: #fff;
 }
 
-.rcmd-text{
+.rcmd-text {
   text-align: center;
 }
 
 .rcmd-icon {
   position: relative;
-  width: 120px;height: 120px;
+  width: 120px;
+  height: 120px;
   margin: .5rem;
   transition: transform .3s
 }
 
-.rcmd-icon:hover{
+.rcmd-icon:hover {
   display: block;
   transform: scale(1.1);
 }
 
-.rcmd-icon-img{
+.rcmd-icon-img {
   position: absolute;
   width: 100%;
 }
@@ -166,7 +161,7 @@ h3{
   color: #fff;
 }
 
-.rcmd-icon-sports{
+.rcmd-icon-sports {
   top: 53%;
 }
 
@@ -175,33 +170,28 @@ h3{
   transition: background .3s;
 }
 
-.crs-photo:hover{
-  background: linear-gradient(rgba(48, 43, 108,.9), rgb(46, 42, 89));
+.crs-photo:hover {
+  background: linear-gradient(rgba(48, 43, 108, .9), rgb(46, 42, 89));
 }
 
-.crs-photo h3{
+.crs-photo h3 {
   color: #fff;
 }
 
 /* ------------ EVENT ------------ */
-@media screen and (max-width: 900px){
-  .carousel-indicators{
+@media screen and (max-width: 900px) {
+  .carousel-indicators {
     display: none;
   }
-  .content-event img{
+
+  .content-event img {
     width: 140% !important;
     margin-left: -20%;
   }
 }
 
-/* ------------------------------------ */
-/* HISTORY */
-/* ------------------------------------ */
-.history{
-}
-
-
-
-.content-brand>div{
-  background-image: url(../img/img_brand_story_m.png);
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
