@@ -1,0 +1,11 @@
+타워에서 바라본 오늘의 서울%%%
+
+<section class="content-live container-fluid pt-5 pb-3">
+  <div class="container text-center">
+    <div class="youtube">
+      <iframe src="https://www.youtube.com/embed/jmUIGUT5Yug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h3 class="live-title"><span>LIVE</span> 서울</h3>
+    <p class="fw-lighter">남산에서 바라보는 지금 이 시각, 서울</p>
+  </div>
+</section>

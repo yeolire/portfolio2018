@@ -199,3 +199,9 @@ h3{
 /* ------------------------------------ */
 .history{
 }
+
+
+
+.content-brand>div{
+  background-image: url(../img/img_brand_story_m.png);
+}
