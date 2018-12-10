@@ -101,6 +101,10 @@ h3 {
   text-align: left;
 }
 
+.about-icon img{
+  width: 250px !important;
+}
+
 .content-live {
   background: #f2f1ea;
 }
