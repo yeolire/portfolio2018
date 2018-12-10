@@ -1,6 +1,6 @@
 var dom = {
   nav: '#nav',
-  link: '.dropdown-item',
+  link: '.navbar-brand, .dropdown-item',
   subtitle: '.lead',
   main: '#main',
   body: 'body'
