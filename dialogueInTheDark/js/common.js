@@ -17,7 +17,7 @@ function sound(){
     play.classList.add('on');
   });
 }
-()
+
 function shirinkNav() {
   var logo = document.querySelectorAll('header img');
   logo[1].style.opacity = 0;
