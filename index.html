@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <section class="section subway">
+    <div class="section__wrap">
+      <h2 class="logo"><img src="portfolio/subway-title.png" alt="subway"></h2>
+      <a href="subwayExpressOrder/index.html" class="link">보러가기</a>
+    </div>
+  </section>
+  <section class="section did">
+    <div class="section__wrap">
+      <h2 class="logo"><img src="portfolio/did-title.png" alt="did"></h2>
+      <a href="dialogueInTheDark/index.html" class="link">보러가기</a>
+    </div>
+  </section>
+  <section class="section oo">
+    <div class="section__wrap">
+      <h2 class="logo"><img src="portfolio/oo-title.png" alt="oo"></h2>
+      <a href="OO/index.html" class="link">보러가기</a>
+    </div>
+  </section>
+  <section class="section bodabom">
+    <div class="section__wrap">
+      <h2 class="logo"><img src="portfolio/bodabom-title.png" alt="bodabom"></h2>
+      <a href="bodabom/index.html" class="link">보러가기</a>
+    </div>
+  </section>
+  <section class="section seoul">
+    <div class="section__wrap">
+      <h2 class="logo"><img src="portfolio/seoul-title.png" alt="seoul"></h2>
+      <a href="NamsanSeoulTower/index.html" class="link">보러가기</a>
+    </div>
+  </section>
+  <section class="section twosome">
+    <div class="section__wrap">
+      <h2 class="logo"><img src="portfolio/twosome-title.png" alt="twosome"></h2>
+      <a href="http://teamtwosome.dothome.co.kr" class="link">보러가기</a>
+    </div>
+  </section>
+
+  <script>
+    var scrollPage = (function() {
+      window.addEventListener('scroll', move);
+
+      function move() {
+        var links = document.querySelectorAll('#menu a');
+        var sections = document.querySelectorAll('section');
+        var current = window.pageYOffset;
+        var height = sections[0].clientHeight;
+        window.addEventListener('resize', function() {
+          height = sections[0].clientHeight;
+        });
+
+        window.addEventListener('wheel', function(e) {
+          var i = Math.floor(current / height);
+          console.log(current);
+          if (e.deltaY < 0) {
+            sections[i].scrollIntoView({
+              behavior: 'smooth'
+            });
+            console.log('down');
+          } else if (e.deltaY > 0) {
+            sections[i + 1].scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        });
+      }
+
+    })();
+  </script>
+</body>
+
+</html>
