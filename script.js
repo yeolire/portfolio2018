@@ -1,6 +1,4 @@
-scrollPage();
-
-function scrollPage() {
+(function scrollPage() {
   var sections = document.querySelectorAll('section');
 
   window.addEventListener('scroll', move);
@@ -16,7 +14,6 @@ function scrollPage() {
     if (isChrome) {
       window.addEventListener('wheel', function(e) {
         var i = Math.floor(current / height);
-        console.log(i);
         if (e.deltaY < 0) {
           sections[i].scrollIntoView({
             behavior: 'smooth'
@@ -29,4 +26,4 @@ function scrollPage() {
       });
     }
   }
-};
+})();
