@@ -52,14 +52,12 @@
       window.addEventListener('scroll', move);
 
       function move() {
-        var links = document.querySelectorAll('#menu a');
         var sections = document.querySelectorAll('section');
         var current = window.pageYOffset + 1;
         var height = sections[0].clientHeight;
         window.addEventListener('resize', function() {
           height = sections[0].clientHeight;
         });
-
 
         var isChrome = !!window.chrome && !!window.chrome.webstore;
         if (isChrome) {
@@ -76,6 +74,7 @@
             }
           });
         }
+      }
     })();
   </script>
 </body>
