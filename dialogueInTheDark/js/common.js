@@ -49,7 +49,7 @@ function scrollPage() {
     });
 
 
-    var isChrome = !!window.chrome && !!window.chrome.webstore;
+    var isChrome = !!window.chrome;
     if (isChrome) {
       window.addEventListener('wheel', function(e) {
         var i = Math.floor(current / height);
