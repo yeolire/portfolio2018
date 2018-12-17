@@ -15,7 +15,6 @@
       window.addEventListener('wheel', function(e) {
         var delta=e.deltaY
         var i = Math.floor(current / height)+1;
-        console.log(delta, delta>0, i);
         if (delta < 0) {
           sections[i-1].scrollIntoView({
             behavior: 'smooth'
