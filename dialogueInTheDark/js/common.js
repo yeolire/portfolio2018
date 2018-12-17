@@ -2,16 +2,16 @@ sound()
 shirinkNav();
 scrollPage();
 
-function sound(){
-  var audio=document.getElementById('audio');
-  var play=document.querySelector('.btn-play');
-  var pause=document.querySelector('.btn-pause');
-  play.addEventListener('click',function(){
+function sound() {
+  var audio = document.getElementById('audio');
+  var play = document.querySelector('.btn-play');
+  var pause = document.querySelector('.btn-pause');
+  play.addEventListener('click', function() {
     audio.play();
     play.classList.remove('on');
     pause.classList.add('on');
   });
-  pause.addEventListener('click',function(){
+  pause.addEventListener('click', function() {
     audio.pause();
     pause.classList.remove('on');
     play.classList.add('on');
@@ -36,33 +36,30 @@ function shirinkNav() {
 }
 
 function scrollPage() {
-  var links=document.querySelectorAll('#menu>a');
+  var links = document.querySelectorAll('#menu>a');
   window.addEventListener('scroll', move);
 
   function move() {
     var links = document.querySelectorAll('#menu a');
     var sections = document.querySelectorAll('section');
-    var current = window.pageYOffset+1;
+    var current = window.pageYOffset + 1;
     var height = sections[0].clientHeight;
     window.addEventListener('resize', function() {
       height = sections[0].clientHeight;
     });
 
-    var isChrome = !!window.chrome && !!window.chrome.webstore;
-    if (isChrome) {
-      window.addEventListener('wheel', function(e) {
-        var i = Math.floor(current / height);
-        if (e.deltaY < 0) {
-          sections[i].scrollIntoView({
-            behavior: 'smooth'
-          });
-        } else if (e.deltaY > 0) {
-          sections[i + 1].scrollIntoView({
-            behavior: 'smooth'
-          });
-        }
-      });
-    }
+    window.addEventListener('wheel', function(e) {
+      var i = Math.floor(current / height);
+      if (e.deltaY < 0) {
+        sections[i].scrollIntoView({
+          behavior: 'smooth'
+        });
+      } else if (e.deltaY > 0) {
+        sections[i + 1].scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
 
     if (current < height) {
       removeAllClass(links, 'on');
@@ -90,6 +87,7 @@ function scrollPage() {
       links[7].classList.add('on');
     }
   }
+
   function removeAllClass(arr, classname) {
     for (var i = 0, item; item = arr[i]; i++) {
       arr[i].classList.remove(classname);
