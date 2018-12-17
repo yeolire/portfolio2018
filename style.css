@@ -66,26 +66,26 @@ img{
 }
 
 .subway{
-  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(portfolio/subway.png);
+  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(portfolio/subway-min.png);
   background-position: 70% 0;
 }
 .did{
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(portfolio/did.png);
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(portfolio/did-min.png);
   background-position: 65% 0;
 }
 .oo{
-  background-image: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(portfolio/oo.png);
+  background-image: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(portfolio/oo-min.png);
   background-position: 75% 0;
 }
 .bodabom{
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(portfolio/bodabom.png);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(portfolio/bodabom-min.png);
   background-position: 30% 0;
 }
 .seoul{
-  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(portfolio/seoul.png);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(portfolio/seoul-min.png);
   background-position: 30% 0;
 }
 .twosome{
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(portfolio/twosome.png);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(portfolio/twosome-min.png);
   background-position: 40% 0;
 }
