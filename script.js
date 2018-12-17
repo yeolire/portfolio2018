@@ -13,13 +13,15 @@
     var isChrome = !!window.chrome;
     if (isChrome) {
       window.addEventListener('wheel', function(e) {
-        var i = Math.floor(current / height);
-        if (e.deltaY < 0) {
-          sections[i].scrollIntoView({
+        var delta=e.deltaY
+        var i = Math.floor(current / height)+1;
+        console.log(delta, delta>0, i);
+        if (delta < 0) {
+          sections[i-1].scrollIntoView({
             behavior: 'smooth'
           });
-        } else if (e.deltaY > 0) {
-          sections[i + 1].scrollIntoView({
+        } else if (delta >= 0) {
+          sections[i].scrollIntoView({
             behavior: 'smooth'
           });
         }
