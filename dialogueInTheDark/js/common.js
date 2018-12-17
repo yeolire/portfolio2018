@@ -48,18 +48,22 @@ function scrollPage() {
       height = sections[0].clientHeight;
     });
 
-    window.addEventListener('wheel', function(e) {
-      var i = Math.floor(current / height);
-      if (e.deltaY < 0) {
-        sections[i].scrollIntoView({
-          behavior: 'smooth'
-        });
-      } else if (e.deltaY > 0) {
-        sections[i + 1].scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
-    });
+
+    var isChrome = !!window.chrome && !!window.chrome.webstore;
+    if (isChrome) {
+      window.addEventListener('wheel', function(e) {
+        var i = Math.floor(current / height);
+        if (e.deltaY < 0) {
+          sections[i].scrollIntoView({
+            behavior: 'smooth'
+          });
+        } else if (e.deltaY > 0) {
+          sections[i + 1].scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    }
 
     if (current < height) {
       removeAllClass(links, 'on');
