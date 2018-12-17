@@ -48,30 +48,30 @@
 
   <script>
     var scrollPage = (function() {
-      window.addEventListener('scroll', function() {
-        var sections = document.querySelectorAll('.section');
-        var current = window.pageYOffset;
+      window.addEventListener('scroll', move);
+
+      function move() {
+        var sections = document.querySelectorAll('section');
+        var current = window.pageYOffset + 1;
         var height = sections[0].clientHeight;
         window.addEventListener('resize', function() {
           height = sections[0].clientHeight;
         });
-        var i = Math.floor(current / height) + 1;
 
         window.addEventListener('wheel', function(e) {
-          console.log(e.deltaY, sections[i].className);
+          var i = Math.floor(current / height);
           if (e.deltaY < 0) {
-            sections[i-1].scrollIntoView({
-              behavior: 'smooth'
-            });
-          } else if (e.deltaY > 0) {
             sections[i].scrollIntoView({
               behavior: 'smooth'
             });
+          } else if (e.deltaY > 0) {
+            sections[i + 1].scrollIntoView({
+              behavior: 'smooth'
+            });
           }
-
         });
-      });
 
+      }
     })();
   </script>
 </body>
