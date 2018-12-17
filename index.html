@@ -48,9 +48,11 @@
 
   <script>
     var scrollPage = (function() {
+      var links = document.querySelectorAll('#menu>a');
       window.addEventListener('scroll', move);
 
       function move() {
+        var links = document.querySelectorAll('#menu a');
         var sections = document.querySelectorAll('section');
         var current = window.pageYOffset + 1;
         var height = sections[0].clientHeight;
@@ -58,20 +60,22 @@
           height = sections[0].clientHeight;
         });
 
-        window.addEventListener('wheel', function(e) {
-          var i = Math.floor(current / height);
-          if (e.deltaY < 0) {
-            sections[i].scrollIntoView({
-              behavior: 'smooth'
-            });
-          } else if (e.deltaY > 0) {
-            sections[i + 1].scrollIntoView({
-              behavior: 'smooth'
-            });
-          }
-        });
 
-      }
+        var isChrome = !!window.chrome && !!window.chrome.webstore;
+        if (isChrome) {
+          window.addEventListener('wheel', function(e) {
+            var i = Math.floor(current / height);
+            if (e.deltaY < 0) {
+              sections[i].scrollIntoView({
+                behavior: 'smooth'
+              });
+            } else if (e.deltaY > 0) {
+              sections[i + 1].scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+          });
+        }
     })();
   </script>
 </body>
