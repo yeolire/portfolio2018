@@ -109,6 +109,7 @@ img {
   border: 1px solid rgba(74, 65, 68, 0.3);
   background: #fff;
   color: #4A4144;
+  z-index: 1;
 }
 
 .long{
